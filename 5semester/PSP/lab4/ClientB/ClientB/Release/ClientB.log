@@ -1,0 +1,14 @@
+﻿  ClientB.cpp
+D:\Study\university\5semester\PSP\lab4\ClientB\ClientB\ClientB.cpp(8,9): warning C4005: 'INADDR_ANY': macro redefinition
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(600,9):
+      see previous definition of 'INADDR_ANY'
+  
+D:\Study\university\5semester\PSP\lab4\ClientB\ClientB\ClientB.cpp(10,9): warning C4005: 'INADDR_BROADCAST': macro redefinition
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(602,9):
+      see previous definition of 'INADDR_BROADCAST'
+  
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 113 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  ClientB.vcxproj -> D:\Study\university\5semester\PSP\lab4\ClientB\Release\ClientB.exe

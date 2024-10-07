@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\university\\5semester\\SP\\lab1\\Lab1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E60FBA-6DEC-4F48-9D60-B27EE326283E}|Lab1\\Lab1.vcxproj|D:\\Study\\university\\5semester\\SP\\lab1\\Lab1\\Lab1\\CountWords.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C5E60FBA-6DEC-4F48-9D60-B27EE326283E}|Lab1\\Lab1.vcxproj|solutionrelative:Lab1\\CountWords.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CountWords.c",
+              "DocumentMoniker": "D:\\Study\\university\\5semester\\SP\\lab1\\Lab1\\Lab1\\CountWords.c",
+              "RelativeDocumentMoniker": "Lab1\\CountWords.c",
+              "ToolTip": "D:\\Study\\university\\5semester\\SP\\lab1\\Lab1\\Lab1\\CountWords.c",
+              "RelativeToolTip": "Lab1\\CountWords.c",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-06T14:51:50.602Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

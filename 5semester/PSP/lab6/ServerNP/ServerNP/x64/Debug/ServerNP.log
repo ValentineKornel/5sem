@@ -1,0 +1,10 @@
+﻿  ServerNP.cpp
+D:\Study\university\5semester\PSP\lab6\ServerNP\ServerNP\ServerNP.cpp(8,9): warning C4005: 'INADDR_ANY': macro redefinition
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(600,9):
+      see previous definition of 'INADDR_ANY'
+  
+D:\Study\university\5semester\PSP\lab6\ServerNP\ServerNP\ServerNP.cpp(10,9): warning C4005: 'INADDR_BROADCAST': macro redefinition
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(602,9):
+      see previous definition of 'INADDR_BROADCAST'
+  
+  ServerNP.vcxproj -> D:\Study\university\5semester\PSP\lab6\ServerNP\x64\Debug\ServerNP.exe

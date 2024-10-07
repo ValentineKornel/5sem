@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\university\\5semester\\PSP\\lab2\\ClientT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E1F2CA8-BAAA-4173-B887-C8307C8C4745}|ClientT\\ClientT.vcxproj|D:\\Study\\university\\5semester\\PSP\\lab2\\ClientT\\ClientT\\ClientT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7E1F2CA8-BAAA-4173-B887-C8307C8C4745}|ClientT\\ClientT.vcxproj|solutionrelative:ClientT\\ClientT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientT.cpp",
+              "DocumentMoniker": "D:\\Study\\university\\5semester\\PSP\\lab2\\ClientT\\ClientT\\ClientT.cpp",
+              "RelativeDocumentMoniker": "ClientT\\ClientT.cpp",
+              "ToolTip": "D:\\Study\\university\\5semester\\PSP\\lab2\\ClientT\\ClientT\\ClientT.cpp",
+              "RelativeToolTip": "ClientT\\ClientT.cpp",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAAAHkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-11T16:17:22.496Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

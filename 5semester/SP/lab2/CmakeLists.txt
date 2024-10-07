@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.10)
+
+set(CMAKE_C_COMPILER clang)
+project(Lab2)
+
+
+add_executable(Lab-02a Lab-02a.c)
+add_executable(Lab-02b Lab-02b.c)
+add_executable(Lab-02c Lab-02c.c)
+add_executable(Lab-02d Lab-02d.c)
+add_executable(Lab-02hw-1 Lab-02hw.c)
+add_executable(Lab-02inf Lab-02inf.c)
+add_executable(Lab-02x Lab-02x.c)

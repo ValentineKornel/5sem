@@ -1,0 +1,15 @@
+﻿  ClientU.cpp
+D:\Study\university\5semester\PSP\lab3\ClientU\ClientU\ClientU.cpp(10,9): warning C4005: 'INADDR_ANY': macro redefinition
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(600,9):
+      see previous definition of 'INADDR_ANY'
+  
+D:\Study\university\5semester\PSP\lab3\ClientU\ClientU\ClientU.cpp(12,9): warning C4005: 'INADDR_BROADCAST': macro redefinition
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(602,9):
+      see previous definition of 'INADDR_BROADCAST'
+  
+D:\Study\university\5semester\PSP\lab3\ClientU\ClientU\ClientU.cpp(179,56): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 112 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  ClientU.vcxproj -> D:\Study\university\5semester\PSP\lab3\ClientU\x64\Release\ClientU.exe

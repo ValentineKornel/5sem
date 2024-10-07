@@ -1,0 +1,4 @@
+﻿  Lab-02b.c
+D:\Study\university\5semester\SP\lab2\lab2\Lab-02b\Lab-02b.c(55,32): warning C4133: 'function': incompatible types - from 'char [9]' to 'LPCWSTR'
+D:\Study\university\5semester\SP\lab2\lab2\Lab-02b\Lab-02b.c(55,44): warning C4133: 'function': incompatible types - from 'char [2]' to 'LPCWSTR'
+  Lab-02b.vcxproj -> D:\Study\university\5semester\SP\lab2\lab2\x64\Debug\Lab-02b.exe

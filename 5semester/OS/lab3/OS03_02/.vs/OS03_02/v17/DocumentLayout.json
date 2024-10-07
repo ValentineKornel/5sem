@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\university\\5semester\\OS\\lab3\\OS03_02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E2C709A-2343-46FE-8A83-77A9A306E87E}|OS03_02\\OS03_02.vcxproj|D:\\Study\\university\\5semester\\OS\\lab3\\OS03_02\\OS03_02\\OS03_02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4E2C709A-2343-46FE-8A83-77A9A306E87E}|OS03_02\\OS03_02.vcxproj|solutionrelative:OS03_02\\OS03_02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36988791-D4C1-4C5E-8E5A-ED291E9C49BF}|OS03_02_2\\OS03_02_2.vcxproj|D:\\Study\\university\\5semester\\OS\\lab3\\OS03_02\\OS03_02_2\\OS03_02_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{36988791-D4C1-4C5E-8E5A-ED291E9C49BF}|OS03_02_2\\OS03_02_2.vcxproj|solutionrelative:OS03_02_2\\OS03_02_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{110387E4-7278-4152-9FBD-07BFC91A0147}|OS03_02_1\\OS03_02_1.vcxproj|D:\\Study\\university\\5semester\\OS\\lab3\\OS03_02\\OS03_02_1\\OS03_02_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{110387E4-7278-4152-9FBD-07BFC91A0147}|OS03_02_1\\OS03_02_1.vcxproj|solutionrelative:OS03_02_1\\OS03_02_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C094EF14-5BD5-4924-B3E2-806571FD8AC2}|OS03_03\\OS03_03.vcxproj|D:\\Study\\university\\5semester\\OS\\lab3\\OS03_02\\OS03_03\\OS03_03.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C094EF14-5BD5-4924-B3E2-806571FD8AC2}|OS03_03\\OS03_03.vcxproj|solutionrelative:OS03_03\\OS03_03.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OS03_03.cpp",
+              "DocumentMoniker": "D:\\Study\\university\\5semester\\OS\\lab3\\OS03_02\\OS03_03\\OS03_03.cpp",
+              "RelativeDocumentMoniker": "OS03_03\\OS03_03.cpp",
+              "ToolTip": "D:\\Study\\university\\5semester\\OS\\lab3\\OS03_02\\OS03_03\\OS03_03.cpp",
+              "RelativeToolTip": "OS03_03\\OS03_03.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-19T16:09:06.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OS03_02_2.cpp",
+              "DocumentMoniker": "D:\\Study\\university\\5semester\\OS\\lab3\\OS03_02\\OS03_02_2\\OS03_02_2.cpp",
+              "RelativeDocumentMoniker": "OS03_02_2\\OS03_02_2.cpp",
+              "ToolTip": "D:\\Study\\university\\5semester\\OS\\lab3\\OS03_02\\OS03_02_2\\OS03_02_2.cpp",
+              "RelativeToolTip": "OS03_02_2\\OS03_02_2.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-19T15:33:20.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OS03_02_1.cpp",
+              "DocumentMoniker": "D:\\Study\\university\\5semester\\OS\\lab3\\OS03_02\\OS03_02_1\\OS03_02_1.cpp",
+              "RelativeDocumentMoniker": "OS03_02_1\\OS03_02_1.cpp",
+              "ToolTip": "D:\\Study\\university\\5semester\\OS\\lab3\\OS03_02\\OS03_02_1\\OS03_02_1.cpp",
+              "RelativeToolTip": "OS03_02_1\\OS03_02_1.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-19T15:32:23.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OS03_02.cpp",
+              "DocumentMoniker": "D:\\Study\\university\\5semester\\OS\\lab3\\OS03_02\\OS03_02\\OS03_02.cpp",
+              "RelativeDocumentMoniker": "OS03_02\\OS03_02.cpp",
+              "ToolTip": "D:\\Study\\university\\5semester\\OS\\lab3\\OS03_02\\OS03_02\\OS03_02.cpp",
+              "RelativeToolTip": "OS03_02\\OS03_02.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-19T15:24:29.804Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

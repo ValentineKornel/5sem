@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Factorial</h2>
+    <script>
+        let requestNumber = 0;
+        let start = Date.now();
+        for(i = 0; i <= 20;i++){
+            fetch(`http://localhost:5000/fact?k=${i}`)
+            .then(resp => {
+                if(!resp.ok){
+                    console.error('Response was not ok' + resp.statusText);
+                }
+                return resp.json();
+            })
+            .then(data => {
+                const p = document.createElement('p');
+                let end = Date.now();
+                let duration = end - start;
+                p.innerText = `${requestNumber}.Результат: ${duration}-${data.k}/${data.fact}`;
+                document.body.appendChild(p);
+
+                if(requestNumber == 20){
+                    end = Date.now();
+                    let totalDuration = end - start;
+                    const p1 = document.createElement('p');
+                    p1.innerText = `Tatal duration: ${totalDuration}`;
+                    document.body.appendChild(p1);
+                }
+
+                requestNumber++;
+            })
+            .catch(error => {
+                console.error('Failed to fetch', error);
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+создать файл CmakeLists.txt с содержимым:
+
+cmake_minimum_required(VERSION 3.10)
+project(WordsCounter)
+
+add_executable(CountWords example.c)
+
+
+
+mkdir build
+cd build
+set CC=clang
+cmake ..
+msbuild example.sln /p:Configuration=Release

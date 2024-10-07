@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1 id="titleName">asd</h1>
+    <h2>Fit 4-2 </h2>
+
+    <script>
+        $.ajax({
+            url: 'http://localhost:3000/api/name',
+            method: 'GET',
+            success: function(data){
+                $('#titleName').text(data);
+            },
+            error: function(){
+                console.error('Failed to fetch')
+            }
+        })
+        
+    </script>
+</body>
+</html>

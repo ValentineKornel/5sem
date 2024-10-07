@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\university\\5semester\\PSP\\lab3\\ServerU\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8AD7FAE-32F4-455C-BE45-F380CEF528C5}|ServerU\\ServerU.vcxproj|D:\\Study\\university\\5semester\\PSP\\lab3\\ServerU\\ServerU\\ServerU.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E8AD7FAE-32F4-455C-BE45-F380CEF528C5}|ServerU\\ServerU.vcxproj|solutionrelative:ServerU\\ServerU.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServerU.cpp",
+              "DocumentMoniker": "D:\\Study\\university\\5semester\\PSP\\lab3\\ServerU\\ServerU\\ServerU.cpp",
+              "RelativeDocumentMoniker": "ServerU\\ServerU.cpp",
+              "ToolTip": "D:\\Study\\university\\5semester\\PSP\\lab3\\ServerU\\ServerU\\ServerU.cpp",
+              "RelativeToolTip": "ServerU\\ServerU.cpp",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAkwLoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-17T14:11:09.637Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

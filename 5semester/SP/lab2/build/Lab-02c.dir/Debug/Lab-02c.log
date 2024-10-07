@@ -1,0 +1,28 @@
+﻿  Building Custom Rule D:/Study/university/5semester/SP/lab2/CMakeLists.txt
+D:\Study\university\5semester\SP\lab2\Lab-02c.c(12,50): warning : format specifies type 'int' but the argument has type 'DWORD' (aka 'unsigned long') [-Wformat]
+D:\Study\university\5semester\SP\lab2\Lab-02c.c(28,13): warning : using the result of an assignment as a condition without parentheses [-Wparentheses]
+D:\Study\university\5semester\SP\lab2\Lab-02c.c(28,13): message : place parentheses around the assignment to silence this warning
+D:\Study\university\5semester\SP\lab2\Lab-02c.c(28,13): message : use '==' to turn this assignment into an equality comparison
+D:\Study\university\5semester\SP\lab2\Lab-02c.c(33,48): warning : format specifies type 'int' but the argument has type 'DWORD' (aka 'unsigned long') [-Wformat]
+D:\Study\university\5semester\SP\lab2\Lab-02c.c(38,50): warning : format specifies type 'int' but the argument has type 'DWORD' (aka 'unsigned long') [-Wformat]
+D:\Study\university\5semester\SP\lab2\Lab-02c.c(47,13): warning : using the result of an assignment as a condition without parentheses [-Wparentheses]
+D:\Study\university\5semester\SP\lab2\Lab-02c.c(47,13): message : place parentheses around the assignment to silence this warning
+D:\Study\university\5semester\SP\lab2\Lab-02c.c(47,13): message : use '==' to turn this assignment into an equality comparison
+D:\Study\university\5semester\SP\lab2\Lab-02c.c(52,48): warning : format specifies type 'int' but the argument has type 'DWORD' (aka 'unsigned long') [-Wformat]
+D:\Study\university\5semester\SP\lab2\Lab-02c.c(57,50): warning : format specifies type 'int' but the argument has type 'DWORD' (aka 'unsigned long') [-Wformat]
+D:\Study\university\5semester\SP\lab2\Lab-02c.c(66,13): warning : using the result of an assignment as a condition without parentheses [-Wparentheses]
+D:\Study\university\5semester\SP\lab2\Lab-02c.c(66,13): message : place parentheses around the assignment to silence this warning
+D:\Study\university\5semester\SP\lab2\Lab-02c.c(66,13): message : use '==' to turn this assignment into an equality comparison
+D:\Study\university\5semester\SP\lab2\Lab-02c.c(71,48): warning : format specifies type 'int' but the argument has type 'DWORD' (aka 'unsigned long') [-Wformat]
+D:\Study\university\5semester\SP\lab2\Lab-02c.c(76,50): warning : format specifies type 'int' but the argument has type 'DWORD' (aka 'unsigned long') [-Wformat]
+D:\Study\university\5semester\SP\lab2\Lab-02c.c(86,13): warning : using the result of an assignment as a condition without parentheses [-Wparentheses]
+D:\Study\university\5semester\SP\lab2\Lab-02c.c(86,13): message : place parentheses around the assignment to silence this warning
+D:\Study\university\5semester\SP\lab2\Lab-02c.c(86,13): message : use '==' to turn this assignment into an equality comparison
+D:\Study\university\5semester\SP\lab2\Lab-02c.c(91,48): warning : format specifies type 'int' but the argument has type 'DWORD' (aka 'unsigned long') [-Wformat]
+D:\Study\university\5semester\SP\lab2\Lab-02c.c(96,50): warning : format specifies type 'int' but the argument has type 'DWORD' (aka 'unsigned long') [-Wformat]
+D:\Study\university\5semester\SP\lab2\Lab-02c.c(106,13): warning : using the result of an assignment as a condition without parentheses [-Wparentheses]
+D:\Study\university\5semester\SP\lab2\Lab-02c.c(106,13): message : place parentheses around the assignment to silence this warning
+D:\Study\university\5semester\SP\lab2\Lab-02c.c(106,13): message : use '==' to turn this assignment into an equality comparison
+D:\Study\university\5semester\SP\lab2\Lab-02c.c(111,48): warning : format specifies type 'int' but the argument has type 'DWORD' (aka 'unsigned long') [-Wformat]
+D:\Study\university\5semester\SP\lab2\Lab-02c.c(116,50): warning : format specifies type 'int' but the argument has type 'DWORD' (aka 'unsigned long') [-Wformat]
+  Lab-02c.vcxproj -> D:\Study\university\5semester\SP\lab2\build\Debug\Lab-02c.exe

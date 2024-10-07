@@ -1,0 +1,5 @@
+D:/Study/university/5semester/SP/lab2/lab2/out/build/x64-debug/CMakeFiles/edit_cache.dir
+D:/Study/university/5semester/SP/lab2/lab2/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+D:/Study/university/5semester/SP/lab2/lab2/out/build/x64-debug/Lab-02-cross/CMakeFiles/Lab-02-cross.dir
+D:/Study/university/5semester/SP/lab2/lab2/out/build/x64-debug/Lab-02-cross/CMakeFiles/edit_cache.dir
+D:/Study/university/5semester/SP/lab2/lab2/out/build/x64-debug/Lab-02-cross/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,7 @@
+﻿  Building Custom Rule D:/Study/university/5semester/SP/lab2/CMakeLists.txt
+D:\Study\university\5semester\SP\lab2\Lab-02d.c(20,58): warning : format specifies type 'int' but the argument has type 'DWORD' (aka 'unsigned long') [-Wformat]
+D:\Study\university\5semester\SP\lab2\Lab-02d.c(24,60): warning : format specifies type 'int' but the argument has type 'DWORD' (aka 'unsigned long') [-Wformat]
+D:\Study\university\5semester\SP\lab2\Lab-02d.c(29,57): warning : format specifies type 'int' but the argument has type 'DWORD' (aka 'unsigned long') [-Wformat]
+D:\Study\university\5semester\SP\lab2\Lab-02d.c(40,60): warning : format specifies type 'int' but the argument has type 'DWORD' (aka 'unsigned long') [-Wformat]
+D:\Study\university\5semester\SP\lab2\Lab-02d.c(50,56): warning : format specifies type 'int' but the argument has type 'DWORD' (aka 'unsigned long') [-Wformat]
+  Lab-02d.vcxproj -> D:\Study\university\5semester\SP\lab2\build\Debug\Lab-02d.exe

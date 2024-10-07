@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пример страницы</title>
+    <script>
+        function showBrowserInfo() {
+            const infoDiv = document.getElementById("browserInfo");
+
+            const info = 
+                "appName: " + navigator.appName + "<br>" +
+                "app Version: " + navigator.appVersion + "<br>" +
+                "App Code Name: " + navigator.appCodeName + "<br>" +
+                "User Agent: " + navigator.userAgent;
+
+            infoDiv.innerHTML = info;
+
+            console.log("Hello World");
+        }
+    </script>
+</head>
+<body>
+    <h1>Добро пожаловать на страницу</h1>
+
+    <p>Для перехода на сайт БГТУ нажмите <a href="https://belstu.by" target="_blank">БГТУ</a>.</p>
+
+    <button onclick="showBrowserInfo()">Информация о браузере</button>
+	
+    <div id="browserInfo" style="margin-top: 20px;"></div>
+</body>
+</html>
