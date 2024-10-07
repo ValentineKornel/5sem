@@ -3,8 +3,8 @@ const http = require("http");
 http.createServer(function(request, response){
     let body = '';
 
-    request.on('data', chunk => {
-        body += chunk.toString();
+    request.on('data', data => {
+        body += data.toString();
     });
     
 
@@ -21,5 +21,5 @@ http.createServer(function(request, response){
     
 
 }).listen(3000, "127.0.0.1", function(){
-    console.log("Сервер начал прослушивание запросов на порту 3000");
+    console.log("Server listening port 3000");
 });
