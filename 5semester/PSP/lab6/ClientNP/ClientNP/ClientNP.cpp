@@ -133,7 +133,7 @@ int main()
 
 	try {
 		if ((hPipe = CreateFileA(
-			"\\\\DESKTOP-0M3BPJP\\pipe\\Tube",
+			"\\\\MSI\\pipe\\Tube",
 			GENERIC_READ | GENERIC_WRITE,
 			FILE_SHARE_READ | FILE_SHARE_WRITE,
 			NULL, OPEN_EXISTING, NULL,

@@ -3,9 +3,6 @@
   "WorkspaceRootPath": "D:\\Study\\university\\5semester\\SP\\lab2\\build\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B01C07E2-D94D-327F-A2E0-26D89EF85E18}|Lab-02d.vcxproj|D:\\Study\\university\\5semester\\SP\\lab2\\Lab-02d.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B6D2FDA2-7EBA-323B-A709-F61DBBB519BD}|Lab-02c.vcxproj|D:\\Study\\university\\5semester\\SP\\lab2\\Lab-02c.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -16,6 +13,9 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{DFCA4D3A-412E-385B-B16A-EC2E41D651BF}|Lab-02x.vcxproj|D:\\Study\\university\\5semester\\SP\\lab2\\Lab-02x.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B01C07E2-D94D-327F-A2E0-26D89EF85E18}|Lab-02d.vcxproj|D:\\Study\\university\\5semester\\SP\\lab2\\Lab-02d.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D3C1A6D-C580-37EF-8C59-982DA1C0469B}|Lab-02inf.vcxproj|D:\\Study\\university\\5semester\\SP\\lab2\\Lab-02inf.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -31,17 +31,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Lab-02x.c",
               "DocumentMoniker": "D:\\Study\\university\\5semester\\SP\\lab2\\Lab-02x.c",
               "RelativeDocumentMoniker": "..\\Lab-02x.c",
               "ToolTip": "D:\\Study\\university\\5semester\\SP\\lab2\\Lab-02x.c",
               "RelativeToolTip": "..\\Lab-02x.c",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-10-04T07:06:37.749Z",
               "EditorCaption": ""
@@ -56,8 +56,7 @@
               "RelativeToolTip": "..\\Lab-02inf.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-10-04T07:06:33.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T07:06:33.841Z"
             },
             {
               "$type": "Document",
@@ -69,57 +68,56 @@
               "RelativeToolTip": "..\\Lab-02hw.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-10-04T07:06:29.84Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T07:06:29.84Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Lab-02d.c",
               "DocumentMoniker": "D:\\Study\\university\\5semester\\SP\\lab2\\Lab-02d.c",
               "RelativeDocumentMoniker": "..\\Lab-02d.c",
               "ToolTip": "D:\\Study\\university\\5semester\\SP\\lab2\\Lab-02d.c",
               "RelativeToolTip": "..\\Lab-02d.c",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-10-04T07:06:27.13Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Lab-02c.c",
               "DocumentMoniker": "D:\\Study\\university\\5semester\\SP\\lab2\\Lab-02c.c",
               "RelativeDocumentMoniker": "..\\Lab-02c.c",
               "ToolTip": "D:\\Study\\university\\5semester\\SP\\lab2\\Lab-02c.c",
               "RelativeToolTip": "..\\Lab-02c.c",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-10-04T07:06:23.382Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Lab-02b.c",
               "DocumentMoniker": "D:\\Study\\university\\5semester\\SP\\lab2\\Lab-02b.c",
               "RelativeDocumentMoniker": "..\\Lab-02b.c",
               "ToolTip": "D:\\Study\\university\\5semester\\SP\\lab2\\Lab-02b.c",
               "RelativeToolTip": "..\\Lab-02b.c",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAFAAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-10-04T07:06:19.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Lab-02a.c",
               "DocumentMoniker": "D:\\Study\\university\\5semester\\SP\\lab2\\Lab-02a.c",
               "RelativeDocumentMoniker": "..\\Lab-02a.c",
               "ToolTip": "D:\\Study\\university\\5semester\\SP\\lab2\\Lab-02a.c",
               "RelativeToolTip": "..\\Lab-02a.c",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC8AAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-10-04T07:06:14.467Z",
               "EditorCaption": ""

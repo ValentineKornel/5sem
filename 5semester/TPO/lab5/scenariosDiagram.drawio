@@ -1,0 +1,193 @@
+<mxfile host="app.diagrams.net" modified="2024-10-09T16:36:21.100Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 OPR/113.0.0.0" etag="f7-czmcYxKlP5BHEa34D" version="24.4.1" type="device">
+  <diagram name="Page-1" id="bOdMnoVJGCNHAH07Nd-P">
+    <mxGraphModel dx="1765" dy="1112" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-2" target="n4ZzyaqIeZ_UJFthW7tM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-2" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Войти в систему под уже существующей учетной записью&lt;/span&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="149" y="44" width="204" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-3" target="n4ZzyaqIeZ_UJFthW7tM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-3" target="n4ZzyaqIeZ_UJFthW7tM-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-3" target="n4ZzyaqIeZ_UJFthW7tM-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-3" value="Перейти в раздел &quot;Jobs&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="149" y="193" width="204" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-4" target="n4ZzyaqIeZ_UJFthW7tM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-4" value="Использовать строку поиска для ввода должности (Например &quot;Java developer&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="149" y="342" width="204" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-5" target="n4ZzyaqIeZ_UJFthW7tM-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-5" value="Использовать строку поиска для ввода должности (Например &quot;Project manager&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="399" y="342" width="204" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-6" target="n4ZzyaqIeZ_UJFthW7tM-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-6" value="Использовать строку поиска для ввода должности (Например &quot;Data scientist&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="646" y="342" width="204" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-7" target="n4ZzyaqIeZ_UJFthW7tM-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-7" value="Открыть страницу с результатами поиска и выбрать одну из вакансий" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="149" y="688" width="204" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-8" target="n4ZzyaqIeZ_UJFthW7tM-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-8" value="Применить несколько фильтров (Например &quot;Remote&quot;, &quot;Full time&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="399" y="486" width="204" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-9" target="n4ZzyaqIeZ_UJFthW7tM-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-9" value="Применить несколько фильтров (Например &quot;Remote&quot;, &quot;Contract&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="646" y="486" width="204" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-10" target="n4ZzyaqIeZ_UJFthW7tM-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-10" value="Нажать кнопку &quot;Apply&quot; и заполнить контактную информацию" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="149" y="832" width="204" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-11" target="n4ZzyaqIeZ_UJFthW7tM-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-11" value="Отправить заявку" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="149" y="1285" width="204" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-12" value="Перейти в раздел &quot;My Jobs\Applied&quot; и проверить статус отправленной заявки" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="149" y="1430" width="204" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-20" target="n4ZzyaqIeZ_UJFthW7tM-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-20" value="Нажать кнопку &quot;Apply&quot; и начать заполнять контактную информацию" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="646" y="630" width="204" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-21" target="n4ZzyaqIeZ_UJFthW7tM-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-21" value="На этапе заполнения контактной информации прервать процесс подачи заявки (например, закрыть окно или обновить страницу)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="646" y="774" width="204" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-22" target="n4ZzyaqIeZ_UJFthW7tM-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-22" value="Перейти в раздел &quot;My Jobs\Applied&quot; и проверить не добавилась ли заявка" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="646" y="918" width="204" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-23" target="n4ZzyaqIeZ_UJFthW7tM-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-23" value="Вернуться в раздел &quot;Jobs&quot;, найти ту же вакансию, попробовать продолжить подачу заявки и отправить ее, либо заполнить заново если процесс не сохранился" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="646" y="1062" width="204" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-32" target="n4ZzyaqIeZ_UJFthW7tM-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-32" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Войти в систему под уже существующей учетной записью&lt;/span&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="-300" width="204" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-34" target="n4ZzyaqIeZ_UJFthW7tM-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-34" target="n4ZzyaqIeZ_UJFthW7tM-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-34" value="Перейти в раздел &quot;Jobs&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1575" y="-300" width="204" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-35" target="n4ZzyaqIeZ_UJFthW7tM-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-35" value="Использовать строку поиска для ввода должности (Например &quot;Java developer&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="-300" width="204" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-36" target="n4ZzyaqIeZ_UJFthW7tM-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-36" value="Открыть страницу с результатами поиска и выбрать одну из вакансий" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="-300" width="204" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-37" target="n4ZzyaqIeZ_UJFthW7tM-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-37" value="Нажать кнопку &quot;Apply&quot; и заполнить контактную информацию" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2595" y="-300" width="204" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-43" target="n4ZzyaqIeZ_UJFthW7tM-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-43" value="Использовать строку поиска для ввода должности (Например &quot;Project manager&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="-160" width="204" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-44" target="n4ZzyaqIeZ_UJFthW7tM-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-44" value="Применить несколько фильтров (Например &quot;Remote&quot;, &quot;Full time&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2085" y="-160" width="204" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-51" target="n4ZzyaqIeZ_UJFthW7tM-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-51" value="Использовать строку поиска для ввода должности (Например &quot;Data scientist&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="-18" width="204" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-52" target="n4ZzyaqIeZ_UJFthW7tM-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-52" value="Применить несколько фильтров (Например &quot;Remote&quot;, &quot;Contract&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2085" y="-18" width="204" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-53" target="n4ZzyaqIeZ_UJFthW7tM-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-53" value="Нажать кнопку &quot;Apply&quot; и начать заполнять контактную информацию" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="-18" width="204" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-54" target="n4ZzyaqIeZ_UJFthW7tM-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-54" value="На этапе заполнения контактной информации прервать процесс подачи заявки (например, закрыть окно или обновить страницу)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2595" y="-18" width="204" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-55" target="n4ZzyaqIeZ_UJFthW7tM-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-55" value="Перейти в раздел &quot;My Jobs\Applied&quot; и проверить не добавилась ли заявка" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2850" y="-18" width="204" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-56" target="n4ZzyaqIeZ_UJFthW7tM-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-56" value="Вернуться в раздел &quot;Jobs&quot;, найти ту же вакансию, попробовать продолжить подачу заявки и отправить ее, либо заполнить заново если процесс не сохранился" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3105" y="-18" width="204" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4ZzyaqIeZ_UJFthW7tM-62" target="n4ZzyaqIeZ_UJFthW7tM-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-62" value="Отправить заявку" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3402" y="-300" width="204" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="n4ZzyaqIeZ_UJFthW7tM-63" value="Перейти в раздел &quot;My Jobs\Applied&quot; и проверить статус отправленной заявки" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3674" y="-300" width="204" height="113" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

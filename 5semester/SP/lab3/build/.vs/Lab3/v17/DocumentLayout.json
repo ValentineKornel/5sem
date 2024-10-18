@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\university\\5semester\\SP\\lab3\\build\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36F24B13-DA86-3A32-8714-3C426348807C}|Lab-03b-client.vcxproj|D:\\Study\\university\\5semester\\SP\\lab3\\Lab-03b-client.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B204F6B-31B9-3DC9-8218-82CDA8522CF6}|Lab-03b-server.vcxproj|D:\\Study\\university\\5semester\\SP\\lab3\\Lab-03b-server.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1023085B-A8F8-3863-93A4-276C0699C34C}|Lab-03a-client.vcxproj|D:\\Study\\university\\5semester\\SP\\lab3\\Lab-03a-client.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C3E497-F17E-34DA-B396-1C7AC40C3BCE}|Lab-03a-server.vcxproj|D:\\Study\\university\\5semester\\SP\\lab3\\Lab-03a-server.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Lab-03a-server.c",
+              "DocumentMoniker": "D:\\Study\\university\\5semester\\SP\\lab3\\Lab-03a-server.c",
+              "RelativeDocumentMoniker": "..\\Lab-03a-server.c",
+              "ToolTip": "D:\\Study\\university\\5semester\\SP\\lab3\\Lab-03a-server.c",
+              "RelativeToolTip": "..\\Lab-03a-server.c",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAJQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-18T08:46:45.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lab-03a-client.c",
+              "DocumentMoniker": "D:\\Study\\university\\5semester\\SP\\lab3\\Lab-03a-client.c",
+              "RelativeDocumentMoniker": "..\\Lab-03a-client.c",
+              "ToolTip": "D:\\Study\\university\\5semester\\SP\\lab3\\Lab-03a-client.c",
+              "RelativeToolTip": "..\\Lab-03a-client.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-18T08:46:43.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lab-03b-server.c",
+              "DocumentMoniker": "D:\\Study\\university\\5semester\\SP\\lab3\\Lab-03b-server.c",
+              "RelativeDocumentMoniker": "..\\Lab-03b-server.c",
+              "ToolTip": "D:\\Study\\university\\5semester\\SP\\lab3\\Lab-03b-server.c",
+              "RelativeToolTip": "..\\Lab-03b-server.c",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAIYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-17T14:46:04.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lab-03b-client.c",
+              "DocumentMoniker": "D:\\Study\\university\\5semester\\SP\\lab3\\Lab-03b-client.c",
+              "RelativeDocumentMoniker": "..\\Lab-03b-client.c",
+              "ToolTip": "D:\\Study\\university\\5semester\\SP\\lab3\\Lab-03b-client.c",
+              "RelativeToolTip": "..\\Lab-03b-client.c",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAkwIIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-17T14:45:14.388Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

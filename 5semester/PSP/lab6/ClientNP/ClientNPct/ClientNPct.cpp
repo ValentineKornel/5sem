@@ -95,7 +95,7 @@ int main()
 		char wbuf[50] = "hello from client";
 		char rbuf[50];
 
-		if (!CallNamedPipe(L"\\\\DESKTOP-0M3BPJP\\pipe\\Tube",
+		if (!CallNamedPipe(L"\\\\MSI\\pipe\\Tube",
 			wbuf,
 			sizeof(wbuf),
 			rbuf,

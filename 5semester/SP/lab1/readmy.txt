@@ -1,14 +1,17 @@
 создать файл CmakeLists.txt с содержимым:
 
+//
 cmake_minimum_required(VERSION 3.10)
 project(WordsCounter)
 
 add_executable(CountWords example.c)
+//
 
-
+после этого выполнить в командной строке
 
 mkdir build
 cd build
-set CC=clang
-cmake ..
+cmake .. -G "Visual Studio 17 2022" -T ClangCL -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
 msbuild example.sln /p:Configuration=Release
+
+название решения.sln и вижлы может отличаться

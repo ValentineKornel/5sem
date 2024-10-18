@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/Study/university/5semester/SP/lab3/CMakeLists.txt
+D:\Study\university\5semester\SP\lab3\Lab-03b-client.c(17,10): warning : unused variable 'machineName' [-Wunused-variable]
+D:\Study\university\5semester\SP\lab3\Lab-03b-client.c(113,9): warning : variable 'totalBytesRead' set but not used [-Wunused-but-set-variable]
+  Lab-03b-client.vcxproj -> D:\Study\university\5semester\SP\lab3\build\Debug\Lab-03b-client.exe

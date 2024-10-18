@@ -1,0 +1,6 @@
+D:/Study/university/5semester/SP/lab3/build/CMakeFiles/Lab-03a-server.dir
+D:/Study/university/5semester/SP/lab3/build/CMakeFiles/Lab-03a-client.dir
+D:/Study/university/5semester/SP/lab3/build/CMakeFiles/Lab-03b-server.dir
+D:/Study/university/5semester/SP/lab3/build/CMakeFiles/Lab-03b-client.dir
+D:/Study/university/5semester/SP/lab3/build/CMakeFiles/ALL_BUILD.dir
+D:/Study/university/5semester/SP/lab3/build/CMakeFiles/ZERO_CHECK.dir

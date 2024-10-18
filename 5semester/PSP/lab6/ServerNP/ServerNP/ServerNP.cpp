@@ -1,7 +1,12 @@
 #include <iostream>
 #include "Winsock2.h"
+#include <windows.h>   // Основные функции Windows API
+#include <aclapi.h>    // Для работы с DACL и SACL
+#include <sddl.h>      // Для работы с SDDL, включая ConvertStringSecurityDescriptorToSecurityDescriptor
+
 #pragma comment(lib, "WS2_32.lib")
 #pragma warning(disable : 4996)
+#pragma warning(disable : 4703)
 using namespace std;
 
 
@@ -79,121 +84,139 @@ string SetPipeError(string msgText, int code)
     return msgText + GetErrorMsgText(code);
 }
 //4
-int main()
-{
-    setlocale(LC_ALL, "Russian");
-    HANDLE hPipe;
-
-	SECURITY_DESCRIPTOR sd;
-	InitializeSecurityDescriptor(&sd, SECURITY_DESCRIPTOR_REVISION);
-	SetSecurityDescriptorDacl(&sd, TRUE, NULL, FALSE);
-	
-	SECURITY_ATTRIBUTES sa;
-	sa.nLength = sizeof(sa);
-	sa.lpSecurityDescriptor = &sd;
-	sa.bInheritHandle = FALSE;
-
-    try {
-        if ((hPipe = CreateNamedPipeA("\\\\.\\pipe\\Tube",
-            PIPE_ACCESS_DUPLEX,
-            PIPE_TYPE_MESSAGE | PIPE_WAIT,
-            1, NULL, NULL,
-            INFINITE, &sa)) == INVALID_HANDLE_VALUE)
-            throw SetPipeError("create: ", GetLastError());
-
-        cout << "Waitinig for client to connect..." << endl;
-        if (!ConnectNamedPipe(hPipe, NULL))
-            throw SetPipeError("connect: ", GetLastError());
-        cout << "Client connected" << endl;
-
-		char rbuf[50];
-		DWORD rbufl = 0;
-		if (!ReadFile(hPipe, rbuf, sizeof(rbuf) - 1, &rbufl, NULL));
-
-		cout << "Message: " << rbuf << endl;
-
-
-		char wbuf[50] = "hello from server";
-		DWORD wbufl = 0;
-		if (!WriteFile(hPipe, wbuf, sizeof(wbuf) - 1, &wbufl, NULL))
-			throw SetPipeError("write: ", GetLastError());
-		cout << "message sent." << endl;
-
-
-        DisconnectNamedPipe(hPipe);
-        CloseHandle(hPipe);
-    }
-    catch (string errorMsgText) {
-        cout << endl << "Error: " << errorMsgText;
-        DisconnectNamedPipe(hPipe);
-        CloseHandle(hPipe);
-    }
-
-
-    return 0;
-}
-
-//5
 //int main()
 //{
-//	setlocale(LC_ALL, "Russian");
-//	HANDLE hPipe;
+//    setlocale(LC_ALL, "Russian");
+//    HANDLE hPipe;
 //
-//	try {
+//	SECURITY_DESCRIPTOR sd;
+//	InitializeSecurityDescriptor(&sd, SECURITY_DESCRIPTOR_REVISION);
+//	SetSecurityDescriptorDacl(&sd, TRUE, NULL, FALSE);
+//	
+//	SECURITY_ATTRIBUTES sa;
+//	sa.nLength = sizeof(sa);
+//	sa.lpSecurityDescriptor = &sd;
+//	sa.bInheritHandle = FALSE;
 //
-//		SECURITY_DESCRIPTOR sd;
-//		InitializeSecurityDescriptor(&sd, SECURITY_DESCRIPTOR_REVISION);
-//		SetSecurityDescriptorDacl(&sd, TRUE, NULL, FALSE);
+//    try {
+//        if ((hPipe = CreateNamedPipeA("\\\\.\\pipe\\Tube",
+//            PIPE_ACCESS_DUPLEX,
+//            PIPE_TYPE_MESSAGE | PIPE_WAIT,
+//            1, NULL, NULL,
+//            INFINITE, &sa)) == INVALID_HANDLE_VALUE)
+//            throw SetPipeError("create: ", GetLastError());
 //
-//		SECURITY_ATTRIBUTES sa;
-//		sa.nLength = sizeof(sa);
-//		sa.lpSecurityDescriptor = &sd;
-//		sa.bInheritHandle = FALSE;
+//        cout << "Waitinig for client to connect..." << endl;
+//        if (!ConnectNamedPipe(hPipe, NULL))
+//            throw SetPipeError("connect: ", GetLastError());
+//        cout << "Client connected" << endl;
 //
-//		
-//		if ((hPipe = CreateNamedPipe(L"\\\\.\\pipe\\Tube",
-//			PIPE_ACCESS_DUPLEX,
-//			PIPE_TYPE_MESSAGE | PIPE_WAIT,
-//			1, 512, 512,
-//			INFINITE, &sa)) == INVALID_HANDLE_VALUE)
-//			throw SetPipeError("create: ", GetLastError());
-//
-//
-//		while (true) {
-//			cout << "Waitinig for client to connect..." << endl;
-//			if (!ConnectNamedPipe(hPipe, NULL))
-//				throw SetPipeError("connect: ", GetLastError());
-//			cout << "Client connected" << endl;
-//
-//
-//			while (true) {
-//				char rbuf[50];
-//				LPDWORD rbufl = 0;
-//				if (!ReadFile(hPipe, rbuf, sizeof(rbuf), rbufl, NULL))
-//					throw SetPipeError("connect: ", GetLastError());
-//
-//				if (strcmp(rbuf, "\0") == 0) {
-//					DisconnectNamedPipe(hPipe);
-//					break;
-//				}
-//
-//				cout << "Message: " << rbuf << endl;
-//
-//				DWORD wbufl = 0;
-//				if (!WriteFile(hPipe, rbuf, sizeof(rbuf)-1, &wbufl, NULL))
-//					throw SetPipeError("write: ", GetLastError());
-//				cout << "message sent." << endl;
-//			}
-//		}
-//
-//		CloseHandle(hPipe);
-//	}
-//	catch (string errorMsgText) {
-//		cout << endl << "Error: " << errorMsgText;
-//		DisconnectNamedPipe(hPipe);
-//		CloseHandle(hPipe);
-//	}
+//		char rbuf[55];
+//		DWORD rbufl = 0;
+//		if (!ReadFile(hPipe, rbuf, sizeof(rbuf) - 1, &rbufl, NULL))
+//			throw SetPipeError("read: ", GetLastError());
+//		cout << "Message: " << rbuf << endl;
 //
 //
-//	return 0;
+//		char wbuf[50] = "hello from server";
+//		DWORD wbufl = 0;
+//		if (!WriteFile(hPipe, wbuf, sizeof(wbuf), &wbufl, NULL))
+//			throw SetPipeError("write: ", GetLastError());
+//		cout << "message sent." << endl;
+//
+//
+//        DisconnectNamedPipe(hPipe);
+//        CloseHandle(hPipe);
+//    }
+//    catch (string errorMsgText) {
+//        cout << endl << "Error: " << errorMsgText;
+//        DisconnectNamedPipe(hPipe);
+//        CloseHandle(hPipe);
+//    }
+//
+//
+//    return 0;
 //}
+
+//5
+int main()
+{
+	setlocale(LC_ALL, "Russian");
+	HANDLE hPipe;
+
+	try {
+
+		/*SECURITY_DESCRIPTOR sd;
+		InitializeSecurityDescriptor(&sd, SECURITY_DESCRIPTOR_REVISION);
+		SetSecurityDescriptorDacl(&sd, TRUE, NULL, FALSE);
+
+		SECURITY_ATTRIBUTES sa;
+		sa.nLength = sizeof(sa);
+		sa.lpSecurityDescriptor = &sd;
+		sa.bInheritHandle = FALSE;*/
+
+		SECURITY_DESCRIPTOR* pSD = NULL;
+		SECURITY_ATTRIBUTES sa;
+		PSECURITY_DESCRIPTOR pSecurityDescriptor;
+		DWORD dwSize;
+
+		// Создание дескриптора безопасности, который разрешает полный доступ всем
+		if (!ConvertStringSecurityDescriptorToSecurityDescriptor(
+			L"D:(A;OICI;GA;;;WD)",    // Полный доступ для всех (WD = Всем пользователям)
+			SDDL_REVISION_1,
+			&pSecurityDescriptor,
+			NULL))
+		{
+			throw SetPipeError("Security descriptor: ", GetLastError());
+		}
+
+		sa.nLength = sizeof(sa);
+		sa.lpSecurityDescriptor = pSecurityDescriptor;
+		sa.bInheritHandle = FALSE;
+
+		if ((hPipe = CreateNamedPipe(L"\\\\.\\pipe\\Tube",
+			PIPE_ACCESS_DUPLEX,
+			PIPE_TYPE_MESSAGE | PIPE_WAIT,
+			1, 512, 512,
+			INFINITE, &sa)) == INVALID_HANDLE_VALUE)
+			throw SetPipeError("create: ", GetLastError());
+
+
+		while (true) {
+			cout << "Waitinig for client to connect..." << endl;
+			if (!ConnectNamedPipe(hPipe, NULL))
+				throw SetPipeError("connect: ", GetLastError());
+			cout << "Client connected" << endl;
+
+
+			while (true) {
+				char rbuf[50];
+				LPDWORD rbufl = 0;
+				if (!ReadFile(hPipe, rbuf, sizeof(rbuf), rbufl, NULL))
+					throw SetPipeError("connect: ", GetLastError());
+
+				if (strcmp(rbuf, "\0") == 0) {
+					DisconnectNamedPipe(hPipe);
+					break;
+				}
+
+				cout << "Message: " << rbuf << endl;
+
+				DWORD wbufl = 0;
+				if (!WriteFile(hPipe, rbuf, sizeof(rbuf)-1, &wbufl, NULL))
+					throw SetPipeError("write: ", GetLastError());
+				cout << "message sent." << endl;
+			}
+		}
+
+		CloseHandle(hPipe);
+	}
+	catch (string errorMsgText) {
+		cout << endl << "Error: " << errorMsgText;
+		DisconnectNamedPipe(hPipe);
+		CloseHandle(hPipe);
+	}
+
+
+	return 0;
+}

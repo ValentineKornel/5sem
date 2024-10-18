@@ -1,0 +1,15 @@
+D:\Study\university\5semester\OS\lab5\Lab05\OS05_02\bin\Debug\net8.0\OS05_02.exe
+D:\Study\university\5semester\OS\lab5\Lab05\OS05_02\bin\Debug\net8.0\OS05_02.deps.json
+D:\Study\university\5semester\OS\lab5\Lab05\OS05_02\bin\Debug\net8.0\OS05_02.runtimeconfig.json
+D:\Study\university\5semester\OS\lab5\Lab05\OS05_02\bin\Debug\net8.0\OS05_02.dll
+D:\Study\university\5semester\OS\lab5\Lab05\OS05_02\bin\Debug\net8.0\OS05_02.pdb
+D:\Study\university\5semester\OS\lab5\Lab05\OS05_02\obj\Debug\net8.0\OS05_02.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\university\5semester\OS\lab5\Lab05\OS05_02\obj\Debug\net8.0\OS05_02.AssemblyInfoInputs.cache
+D:\Study\university\5semester\OS\lab5\Lab05\OS05_02\obj\Debug\net8.0\OS05_02.AssemblyInfo.cs
+D:\Study\university\5semester\OS\lab5\Lab05\OS05_02\obj\Debug\net8.0\OS05_02.csproj.CoreCompileInputs.cache
+D:\Study\university\5semester\OS\lab5\Lab05\OS05_02\obj\Debug\net8.0\OS05_02.sourcelink.json
+D:\Study\university\5semester\OS\lab5\Lab05\OS05_02\obj\Debug\net8.0\OS05_02.dll
+D:\Study\university\5semester\OS\lab5\Lab05\OS05_02\obj\Debug\net8.0\refint\OS05_02.dll
+D:\Study\university\5semester\OS\lab5\Lab05\OS05_02\obj\Debug\net8.0\OS05_02.pdb
+D:\Study\university\5semester\OS\lab5\Lab05\OS05_02\obj\Debug\net8.0\OS05_02.genruntimeconfig.cache
+D:\Study\university\5semester\OS\lab5\Lab05\OS05_02\obj\Debug\net8.0\ref\OS05_02.dll

@@ -1,0 +1,10 @@
+﻿D:\Progtam files1\VisualStudio\main\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (Lab-03-client.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Lab-03b-client.c
+D:\Study\university\5semester\SP\lab3\Lab-03a-client\Lab-03-client\Lab-03b-client.c(92,22): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Study\university\5semester\SP\lab3\Lab-03a-client\Lab-03-client\Lab-03b-client.c(17,10): warning C4101: 'machineName': unreferenced local variable
+  Generating code
+  1 of 6 functions (16.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Lab-03-client.vcxproj -> D:\Study\university\5semester\SP\lab3\Lab-03a-client\x64\Release\Lab-03b-client.exe
