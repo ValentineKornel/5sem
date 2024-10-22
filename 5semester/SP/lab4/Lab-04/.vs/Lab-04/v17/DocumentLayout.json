@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\university\\5semester\\SP\\lab4\\Lab-04\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{009B3DBF-CDF5-40C4-A625-7794C1B0D1B1}|Lab-04b\\Lab-04b.vcxproj|D:\\Study\\university\\5semester\\SP\\lab4\\Lab-04\\Lab-04b\\Lab-04b.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{009B3DBF-CDF5-40C4-A625-7794C1B0D1B1}|Lab-04b\\Lab-04b.vcxproj|solutionrelative:Lab-04b\\Lab-04b.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1514551-47FF-4C2B-B476-60F24CF94E32}|Lab-04\\Lab-04.vcxproj|D:\\Study\\university\\5semester\\SP\\lab4\\Lab-04\\Lab-04\\Lab-04.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C1514551-47FF-4C2B-B476-60F24CF94E32}|Lab-04\\Lab-04.vcxproj|solutionrelative:Lab-04\\Lab-04.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lab-04b.c",
+              "DocumentMoniker": "D:\\Study\\university\\5semester\\SP\\lab4\\Lab-04\\Lab-04b\\Lab-04b.c",
+              "RelativeDocumentMoniker": "Lab-04b\\Lab-04b.c",
+              "ToolTip": "D:\\Study\\university\\5semester\\SP\\lab4\\Lab-04\\Lab-04b\\Lab-04b.c",
+              "RelativeToolTip": "Lab-04b\\Lab-04b.c",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-22T19:05:37.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lab-04.c",
+              "DocumentMoniker": "D:\\Study\\university\\5semester\\SP\\lab4\\Lab-04\\Lab-04\\Lab-04.c",
+              "RelativeDocumentMoniker": "Lab-04\\Lab-04.c",
+              "ToolTip": "D:\\Study\\university\\5semester\\SP\\lab4\\Lab-04\\Lab-04\\Lab-04.c",
+              "RelativeToolTip": "Lab-04\\Lab-04.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-22T17:39:27.161Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

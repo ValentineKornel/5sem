@@ -146,33 +146,15 @@ int main()
 
 	try {
 
-		/*SECURITY_DESCRIPTOR sd;
+		SECURITY_DESCRIPTOR sd;
 		InitializeSecurityDescriptor(&sd, SECURITY_DESCRIPTOR_REVISION);
 		SetSecurityDescriptorDacl(&sd, TRUE, NULL, FALSE);
 
 		SECURITY_ATTRIBUTES sa;
 		sa.nLength = sizeof(sa);
 		sa.lpSecurityDescriptor = &sd;
-		sa.bInheritHandle = FALSE;*/
-
-		SECURITY_DESCRIPTOR* pSD = NULL;
-		SECURITY_ATTRIBUTES sa;
-		PSECURITY_DESCRIPTOR pSecurityDescriptor;
-		DWORD dwSize;
-
-		// Создание дескриптора безопасности, который разрешает полный доступ всем
-		if (!ConvertStringSecurityDescriptorToSecurityDescriptor(
-			L"D:(A;OICI;GA;;;WD)",    // Полный доступ для всех (WD = Всем пользователям)
-			SDDL_REVISION_1,
-			&pSecurityDescriptor,
-			NULL))
-		{
-			throw SetPipeError("Security descriptor: ", GetLastError());
-		}
-
-		sa.nLength = sizeof(sa);
-		sa.lpSecurityDescriptor = pSecurityDescriptor;
 		sa.bInheritHandle = FALSE;
+
 
 		if ((hPipe = CreateNamedPipe(L"\\\\.\\pipe\\Tube",
 			PIPE_ACCESS_DUPLEX,

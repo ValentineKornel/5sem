@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DB API Client</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        label {
+            display: inline-block;
+            width: 80px;
+        }
+        input, button {
+            margin-bottom: 10px;
+        }
+        #output {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <h1>DB API Client</h1>
+
+    <h2>GET Request</h2>
+    <button onclick="sendGetRequest()">Fetch All Data</button>
+
+    <h2>POST Request</h2>
+    <form id="postForm">
+        <label for="id">ID:</label>
+        <input type="number" id="id" name="id" required><br>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="bday">Bday:</label>
+        <input type="date" id="bday" name="bday" required><br>
+        <button type="button" onclick="sendPostRequest()">Add Item</button>
+    </form>
+
+    <h2>PUT Request</h2>
+    <form id="putForm">
+        <label for="idPut">ID:</label>
+        <input type="number" id="idPut" name="idPut" required><br>
+        <label for="namePut">Name:</label>
+        <input type="text" id="namePut" name="name" required><br>
+        <label for="bdayPut">Bday:</label>
+        <input type="date" id="bdayPut" name="bday" required><br>
+        <button type="button" onclick="sendPutRequest()">Update Item</button>
+    </form>
+
+    <h2>DELETE Request</h2>
+    <form id="deleteForm">
+        <label for="idDelete">ID:</label>
+        <input type="number" id="idDelete" name="id" required><br>
+        <button type="button" onclick="sendDeleteRequest()">Delete Item</button>
+    </form>
+
+    <div id="output">Response will appear here...</div>
+
+    <script>
+        const apiUrl = '/api/db';
+
+        async function sendGetRequest() {
+            try {
+                const response = await fetch(apiUrl, { method: 'GET' });
+                const data = await response.json();
+                document.getElementById('output').textContent = JSON.stringify(data, null, 2);
+            } catch (error) {
+                document.getElementById('output').textContent = 'Error: ' + error;
+            }
+        }
+
+        async function sendPostRequest() {
+            const id = document.getElementById('id').value;
+            const name = document.getElementById('name').value;
+            const bday = document.getElementById('bday').value;
+
+            try {
+                const response = await fetch(apiUrl, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({id, name, bday })
+                });
+                const data = await response.json();
+                document.getElementById('output').textContent = JSON.stringify(data, null, 2);
+            } catch (error) {
+                document.getElementById('output').textContent = 'Error: ' + error;
+            }
+        }
+
+        async function sendPutRequest() {
+            const id = document.getElementById('idPut').value;
+            const name = document.getElementById('namePut').value;
+            const bday = document.getElementById('bdayPut').value;
+
+            try {
+                const response = await fetch(apiUrl, {
+                    method: 'PUT',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ id, name, bday })
+                });
+                const message = await response.text();
+                document.getElementById('output').textContent = message;
+            } catch (error) {
+                document.getElementById('output').textContent = 'Error: ' + error;
+            }
+        }
+
+        async function sendDeleteRequest() {
+            const id = document.getElementById('idDelete').value;
+
+            try {
+                const response = await fetch(`${apiUrl}?id=${id}`, { method: 'DELETE' });
+                const message = await response.text();
+                document.getElementById('output').textContent = message;
+            } catch (error) {
+                document.getElementById('output').textContent = 'Error: ' + error;
+            }
+        }
+    </script>
+</body>
+</html>

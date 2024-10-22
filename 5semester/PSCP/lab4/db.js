@@ -1,45 +1,36 @@
+const events = require('events')
 
 let db = {
     data: [],
-    currentFreeId: 0,
 
-    select: function(){
-        return this.data;
+    select: async function(){
+        return this.data
     },
-    insert: function(item){
-        let completedItem = {
-            id: this.currentFreeId,
-            name: item.name,
-            bday: item.bday
-        }
-        this.currentFreeId++;
-        this.data.push(completedItem);
-        return completedItem;
+    insert: async function(item){
+        this.data.push(item);
     },
-    update: function(newString){
-        let index = this.data.findIndex(item => item.id === newString.id);
+    update: async function(newItem){
+        let index = this.data.findIndex(el => el.id == newItem.id);
         if (index !== -1) {
-            this.data[index].name = newString.name;
-            this.data[index].bday = newString.bday;
+            this.data[index].name = newItem.name;
+            this.data[index].bday = newItem.bday;
+            return this.data[index];
         } else {
-            console.log('Item not found');
+            return null;
         }
     },
-    delete: function(id){
-        let index = this.data.findIndex(item => item.id.toString() === id);
-        let retItem;
+    delete: async function(id){
+        let index = this.data.findIndex(el => el.id == id);
         if (index !== -1) {
-            retItem = {
-                id: this.data[index].id,
-                name: this.data[index].name,
-                bday: this.data[index].bday,
-            }
-            this.data.splice(index, 1);
+            let deletedItem = this.data.splice(index, 1)[0];
+            return deletedItem;
         } else {
-            console.log('Item not found');
+            return null;
         }
-        return retItem;
     }
 }
 
-module.exports = db;
+Object.assign(db, events.prototype)
+
+module.exports = db
+

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\university\\5semester\\PSP\\\u043B\u0430\u04317\\ClientMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB8B82BF-1F79-4979-BE1E-08AB7BB0A0CE}|ClientMS\\ClientMS.vcxproj|D:\\Study\\university\\5semester\\PSP\\\u043B\u0430\u04317\\ClientMS\\ClientMS\\ClientMS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB8B82BF-1F79-4979-BE1E-08AB7BB0A0CE}|ClientMS\\ClientMS.vcxproj|solutionrelative:ClientMS\\ClientMS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 379,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientMS.cpp",
+              "DocumentMoniker": "D:\\Study\\university\\5semester\\PSP\\\u043B\u0430\u04317\\ClientMS\\ClientMS\\ClientMS.cpp",
+              "RelativeDocumentMoniker": "ClientMS\\ClientMS.cpp",
+              "ToolTip": "D:\\Study\\university\\5semester\\PSP\\\u043B\u0430\u04317\\ClientMS\\ClientMS\\ClientMS.cpp",
+              "RelativeToolTip": "ClientMS\\ClientMS.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-12T19:11:41.238Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

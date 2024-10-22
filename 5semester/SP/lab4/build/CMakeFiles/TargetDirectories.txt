@@ -1,0 +1,4 @@
+D:/Study/university/5semester/SP/lab4/build/CMakeFiles/Lab-04.dir
+D:/Study/university/5semester/SP/lab4/build/CMakeFiles/Lab-04b.dir
+D:/Study/university/5semester/SP/lab4/build/CMakeFiles/ALL_BUILD.dir
+D:/Study/university/5semester/SP/lab4/build/CMakeFiles/ZERO_CHECK.dir

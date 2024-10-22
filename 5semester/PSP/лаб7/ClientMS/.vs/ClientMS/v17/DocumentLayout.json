@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Ivan\\Desktop\\5sem\\PNA\\\u043B\u0430\u04317\\ClientMS\\",
+  "WorkspaceRootPath": "D:\\Study\\university\\5semester\\PSP\\\u043B\u0430\u04317\\ClientMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB8B82BF-1F79-4979-BE1E-08AB7BB0A0CE}|ClientMS\\ClientMS.vcxproj|C:\\Users\\Ivan\\Desktop\\5sem\\PNA\\\u043B\u0430\u04317\\ClientMS\\ClientMS\\ClientMS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{DB8B82BF-1F79-4979-BE1E-08AB7BB0A0CE}|ClientMS\\ClientMS.vcxproj|D:\\Study\\university\\5semester\\PSP\\\u043B\u0430\u04317\\ClientMS\\ClientMS\\ClientMS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DB8B82BF-1F79-4979-BE1E-08AB7BB0A0CE}|ClientMS\\ClientMS.vcxproj|solutionrelative:ClientMS\\ClientMS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,29 +14,17 @@
       "DocumentGroups": [
         {
           "DockedHeight": 379,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ClientMS.cpp",
-              "DocumentMoniker": "C:\\Users\\Ivan\\Desktop\\5sem\\PNA\\\u043B\u0430\u04317\\ClientMS\\ClientMS\\ClientMS.cpp",
+              "DocumentMoniker": "D:\\Study\\university\\5semester\\PSP\\\u043B\u0430\u04317\\ClientMS\\ClientMS\\ClientMS.cpp",
               "RelativeDocumentMoniker": "ClientMS\\ClientMS.cpp",
-              "ToolTip": "C:\\Users\\Ivan\\Desktop\\5sem\\PNA\\\u043B\u0430\u04317\\ClientMS\\ClientMS\\ClientMS.cpp",
+              "ToolTip": "D:\\Study\\university\\5semester\\PSP\\\u043B\u0430\u04317\\ClientMS\\ClientMS\\ClientMS.cpp",
               "RelativeToolTip": "ClientMS\\ClientMS.cpp",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAAA0AAAALAAAA",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAADUAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-12T19:11:41.238Z",
               "EditorCaption": ""

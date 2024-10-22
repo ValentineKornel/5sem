@@ -121,7 +121,8 @@ string SetErrorMsgText(string msg, int errorNumber) {
 
 int main(){
 
-    HANDLE sH = CreateMailslot(TEXT("\\\\.\\mailslot\\Box"), 300, 180000, NULL);
+    HANDLE sH = CreateMailslot(TEXT("\\\\.\\mailslot\\Box"), 500, 180000, NULL);
+    cout << "server listening..." << endl;
     if (sH == INVALID_HANDLE_VALUE) {
         throw SetErrorMsgText("create: ", GetLastError());
     }
@@ -138,21 +139,22 @@ int main(){
         }
     }
     else {
-        rbuf[bytesRead] = '\0';
+        //rbuf[bytesRead] = '\0';
+        cout << bytesRead << endl;
         cout << "Received message: " << rbuf << endl;
     }
 
     //Задание 9
-    /*while (true) {
-    if (!ReadFile(sH, rbuf, sizeof(rbuf), &bytesRead, NULL)) {
-        cerr << "Error reading from mailslot: " << GetLastError() << endl;
-        continue;
-    }
-    rbuf[bytesRead] = '\0';
-    cout << "Received message: " << rbuf << endl;
-}*/
-
-    CloseHandle(sH);
+//    while (true) {
+//    if (!ReadFile(sH, rbuf, sizeof(rbuf), &bytesRead, NULL)) {
+//        cerr << "Error reading from mailslot: " << GetLastError() << endl;
+//        continue;
+//    }
+//    rbuf[bytesRead] = '\0';
+//    cout << "Received message: " << rbuf << endl;
+//}
+//
+//    CloseHandle(sH);
      
     return 0;
 }
