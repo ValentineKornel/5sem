@@ -8,6 +8,8 @@
 CRITICAL_SECTION cs;
 DWORD dwTlsIndex;
 
+#define MAX_NUMBERS 1024
+
 char globalPrimes[4096];
 int globalPrimesSize = 0;
 
@@ -83,6 +85,35 @@ DWORD WINAPI ThreadFunc(LPVOID lpParam)
     return 0;
 }
 
+// Функция для сортировки чисел
+int compare(const void* a, const void* b) {
+    return (*(int*)a - *(int*)b);
+}
+
+// Функция для сортировки массива простых чисел
+void sortGlobalPrimes() {
+    int numbers[MAX_NUMBERS];
+    int numCount = 0;
+
+    // Разбираем строку на числа
+    char* token = strtok(globalPrimes, " ");
+    while (token != NULL && numCount < MAX_NUMBERS) {
+        numbers[numCount++] = atoi(token);
+        token = strtok(NULL, " ");
+    }
+
+    // Сортируем массив чисел
+    qsort(numbers, numCount, sizeof(int), compare);
+
+    // Записываем отсортированные числа обратно в строку
+    globalPrimes[0] = '\0'; // Очищаем строку
+    for (int i = 0; i < numCount; i++) {
+        char temp[16];
+        snprintf(temp, sizeof(temp), "%d ", numbers[i]);
+        strcat(globalPrimes, temp);
+    }
+}
+
 
 int main(int argc, char* argv[])
 {
@@ -134,6 +165,7 @@ int main(int argc, char* argv[])
     WaitForMultipleObjects(numberOfProcess, hThread, TRUE, INFINITE);
     TlsFree(dwTlsIndex);
     DeleteCriticalSection(&cs);
+    sortGlobalPrimes();
     _cprintf("\nGlobal primes: %s\n", globalPrimes);
 
     return 0;

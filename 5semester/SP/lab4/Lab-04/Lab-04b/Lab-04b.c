@@ -5,6 +5,8 @@
 #include <conio.h>
 #pragma warning(disable : 4996)
 
+#define MAX_NUMBERS 1024
+
 CRITICAL_SECTION cs;
 DWORD dwTlsIndex;
 
@@ -81,6 +83,35 @@ DWORD WINAPI ThreadFunc(LPVOID lpParam)
     return 0;
 }
 
+// Функция для сортировки чисел
+int compare(const void* a, const void* b) {
+    return (*(int*)a - *(int*)b);
+}
+
+// Функция для сортировки массива простых чисел
+void sortGlobalPrimes() {
+    int numbers[MAX_NUMBERS];
+    int numCount = 0;
+
+    // Разбираем строку на числа
+    char* token = strtok(globalPrimes, " ");
+    while (token != NULL && numCount < MAX_NUMBERS) {
+        numbers[numCount++] = atoi(token);
+        token = strtok(NULL, " ");
+    }
+
+    // Сортируем массив чисел
+    qsort(numbers, numCount, sizeof(int), compare);
+
+    // Записываем отсортированные числа обратно в строку
+    globalPrimes[0] = '\0'; // Очищаем строку
+    for (int i = 0; i < numCount; i++) {
+        char temp[16];
+        snprintf(temp, sizeof(temp), "%d ", numbers[i]);
+        strcat(globalPrimes, temp);
+    }
+}
+
 
 int main(int argc, char* argv[])
 {
@@ -127,15 +158,8 @@ int main(int argc, char* argv[])
 
     WaitForMultipleObjects(numberOfProcess, hThread, TRUE, INFINITE);
     DeleteCriticalSection(&cs);
+    sortGlobalPrimes();
     _cprintf("\nGlobal primes: %s\n", globalPrimes);
 
     return 0;
 }
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
