@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="MASTERGRAM_APP" directorySegmentName="seg_0" id="E5FE18E5-4FD3-14BB-6DAA-FC279E57694D">
+<sourceConnName>mastergrma_app</sourceConnName>
+<sourceObjName>MASTERGRAM_APP</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-10-26 05:32:56 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<schemaObject>4D16E689-98E9-9B01-E68C-21A2B82A81F8</schemaObject>
+</UserOraclev10g>

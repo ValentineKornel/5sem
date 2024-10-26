@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="REQUEST" directorySegmentName="seg_0" id="30210D29-5ACB-0C38-E3BC-794728B5C396">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-10-26 05:32:58 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<schemaObject>4D16E689-98E9-9B01-E68C-21A2B82A81F8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>830FA58C-AA92-36C3-4711-DF1996C64DD5</segment>
+<tableSpace>839E86D1-508F-BB38-DF85-2A59BCB091CE</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="1C0B6836-1964-888D-3750-2600EB75535D">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-10-26 05:32:58 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="CLIENT_ID" id="462BC876-406C-B003-6ED9-22BD354462A4">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-10-26 05:32:58 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTACHMENT_LETTER" id="666BDDAE-7A67-1D58-6F13-AC0234E4254D">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-10-26 05:32:58 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTACHMENT_IMAGE" id="E841B5BF-19C9-2DBF-51A7-9D6031E20980">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-10-26 05:32:58 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_REQUEST_USER" id="CF9813F4-01BE-FBB5-7172-CCD05BBC4038">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-10-26 05:33:13 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<lobStorages>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000075875C00003$$" id="E543820B-E778-E712-7DBF-4C38CD9E2D77">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-10-26 05:33:13 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>ATTACHMENT_IMAGE</column>
+<compression>NO</compression>
+<duplication>KEEP_DUPLICATES</duplication>
+<logging>YES</logging>
+<tableSpace>839E86D1-508F-BB38-DF85-2A59BCB091CE</tableSpace>
+<lobStorageType>SECUREFILE</lobStorageType>
+</LobStorage>
+</lobStorages>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="REQUEST_PK" id="6CC494AD-FBA4-532A-5054-78917D1003F8">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-10-26 05:33:08 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<schemaObject>4D16E689-98E9-9B01-E68C-21A2B82A81F8</schemaObject>
+<segment>62E3057B-140C-A6F9-6E1E-A816EEAA7EF0</segment>
+<tableSpace>839E86D1-508F-BB38-DF85-2A59BCB091CE</tableSpace>
+<indexSegment>62E3057B-140C-A6F9-6E1E-A816EEAA7EF0</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

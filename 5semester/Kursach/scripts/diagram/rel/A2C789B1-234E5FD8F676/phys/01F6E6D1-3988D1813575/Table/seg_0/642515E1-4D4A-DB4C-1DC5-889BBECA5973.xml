@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="NOTIFICATION" directorySegmentName="seg_0" id="642515E1-4D4A-DB4C-1DC5-889BBECA5973">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-10-26 05:32:58 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<schemaObject>4D16E689-98E9-9B01-E68C-21A2B82A81F8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>830FA58C-AA92-36C3-4711-DF1996C64DD5</segment>
+<tableSpace>839E86D1-508F-BB38-DF85-2A59BCB091CE</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="RECEIVER_ID" id="577D5E64-7907-E633-E8EC-04EED498E6CB">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-10-26 05:32:58 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WATCHED" id="622E714C-B439-FB12-9AFC-565A31EA6E53">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-10-26 05:32:58 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MESSAGE" id="7F163E89-979C-302F-2C57-E2549B8BAD06">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-10-26 05:32:58 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="DBDF901D-DDBA-455E-AF5D-A6A8F673EEA8">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-10-26 05:32:58 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="CREATED" id="E9FE592D-8059-0AD5-AF6B-B15ECF6EA8EE">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-10-26 05:32:58 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_NOTIFICATION_USER" id="5D15B79F-EE9E-D622-FD30-4E9203758E98">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-10-26 05:33:13 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="NOTIFICATION_PK" id="87D37466-A900-095F-2D71-231753181795">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-10-26 05:33:08 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<schemaObject>4D16E689-98E9-9B01-E68C-21A2B82A81F8</schemaObject>
+<segment>62E3057B-140C-A6F9-6E1E-A816EEAA7EF0</segment>
+<tableSpace>839E86D1-508F-BB38-DF85-2A59BCB091CE</tableSpace>
+<indexSegment>62E3057B-140C-A6F9-6E1E-A816EEAA7EF0</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

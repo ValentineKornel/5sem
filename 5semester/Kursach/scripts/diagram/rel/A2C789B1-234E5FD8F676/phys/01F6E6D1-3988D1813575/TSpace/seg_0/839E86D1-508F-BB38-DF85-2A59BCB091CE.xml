@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="MASTERGRAM_TABLESPACE" directorySegmentName="seg_0" id="839E86D1-508F-BB38-DF85-2A59BCB091CE">
+<sourceConnName>mastergrma_app</sourceConnName>
+<sourceObjSchema>MASTERGRAM_APP</sourceObjSchema>
+<sourceObjName>MASTERGRAM_TABLESPACE</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-10-26 05:32:58 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

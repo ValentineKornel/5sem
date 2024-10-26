@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="847B88F0-074A-095A-7F85-69859EF17027" schemaObject="4D16E689-98E9-9B01-E68C-21A2B82A81F8" name="CREDENTIAL">
+<sourceConnName>mastergrma_app</sourceConnName>
+<sourceObjSchema>MASTERGRAM_APP</sourceObjSchema>
+<sourceObjName>CREDENTIAL</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-10-26 05:32:58 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="F796F255-C12F-8BDE-D026-E584F9EBAEA3">
+<sourceConnName>mastergrma_app</sourceConnName>
+<sourceObjSchema>CREDENTIAL</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-10-26 05:32:58 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="USERNAME" id="CAF9F23C-AFB7-0659-086C-CE68FC5FBC61">
+<sourceConnName>mastergrma_app</sourceConnName>
+<sourceObjSchema>CREDENTIAL</sourceObjSchema>
+<sourceObjName>USERNAME</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-10-26 05:32:58 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWORD_HASH" id="2C52EDBE-CCB3-BAD8-0B06-DC0904A18F97">
+<sourceConnName>mastergrma_app</sourceConnName>
+<sourceObjSchema>CREDENTIAL</sourceObjSchema>
+<sourceObjName>PASSWORD_HASH</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-10-26 05:32:58 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C40DD698-C5D5-7BEF-050C-161900D6969C" schemaObject="4D16E689-98E9-9B01-E68C-21A2B82A81F8" name="CREDENTIAL_PK">
+<sourceConnName>mastergrma_app</sourceConnName>
+<sourceObjSchema>MASTERGRAM_APP</sourceObjSchema>
+<sourceObjName>SYS_C008354</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-10-26 05:33:01 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F796F255-C12F-8BDE-D026-E584F9EBAEA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22C3A84E-332A-4630-33D1-B2354E01A2B4" schemaObject="4D16E689-98E9-9B01-E68C-21A2B82A81F8" name="CREDENTIAL_USERNAME_UN">
+<sourceConnName>mastergrma_app</sourceConnName>
+<sourceObjSchema>MASTERGRAM_APP</sourceObjSchema>
+<sourceObjName>SYS_C008355</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-10-26 05:33:01 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAF9F23C-AFB7-0659-086C-CE68FC5FBC61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
