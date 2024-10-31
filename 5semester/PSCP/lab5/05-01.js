@@ -3,16 +3,25 @@ const url = require('url');
 const fs = require('fs');
 const path = require('path');
 const events = require('events');
-const util = require('util');
-const readline = require('readline');
 const { clearTimeout } = require('timers');
 
 const db = require('./db.js');
 
-const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-})
+process.stdin.resume();
+process.stdin.setEncoding('utf8');
+
+let inputBuffer = '';
+
+process.stdin.on('data', (chunk) => {
+    inputBuffer += chunk;
+
+    while (inputBuffer.includes('\n')) {
+        const lineEndIndex = inputBuffer.indexOf('\n');
+        const line = inputBuffer.slice(0, lineEndIndex).trim(); // Извлекаем строку
+        inputBuffer = inputBuffer.slice(lineEndIndex + 1); // Убираем обработанную строку из буфера
+        processCommand(line);
+    }
+});
 
 let timerId = -1
 let intervalId = -1
@@ -26,8 +35,7 @@ let statistics = {
     commit: 0,
 }
 
-
-rl.on('line',(input) => {
+function processCommand(input){
     let parseCommandLine = input.split(' ');
 
     let command = parseCommandLine[0];
@@ -92,7 +100,7 @@ rl.on('line',(input) => {
             console.log('Not a command');
         } break;
     }
-})
+}
 
 
 db.on('GET', async (req, resp) => {

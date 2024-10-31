@@ -156,7 +156,7 @@ int main()
 		sa.bInheritHandle = FALSE;
 
 
-		if ((hPipe = CreateNamedPipe(L"\\\\.\\pipe\\Tube",
+		if ((hPipe = CreateNamedPipeW(L"\\\\.\\pipe\\Tube",
 			PIPE_ACCESS_DUPLEX,
 			PIPE_TYPE_MESSAGE | PIPE_WAIT,
 			1, 512, 512,

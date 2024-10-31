@@ -9,7 +9,8 @@ D:\Study\university\5semester\PSP\lab6\ClientNP\ClientNP\ClientNP.cpp(10,9): war
   
 D:\Study\university\5semester\PSP\lab6\ClientNP\ClientNP\ClientNP.cpp(163,61): warning C4390: ';': empty controlled statement found; is this the intent?
   Generating code
-  Previous IPDB and IOBJ mismatch, fall back to full compilation.
-  All 116 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  1 of 116 functions ( 0.9%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   ClientNP.vcxproj -> D:\Study\university\5semester\PSP\lab6\ClientNP\Release\ClientNP.exe

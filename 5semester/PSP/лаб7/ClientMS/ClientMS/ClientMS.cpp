@@ -75,5 +75,15 @@ int main() {
     char nameServer[20] = "\\\\MSI\\mailslot\\Box";
     char message[50] = "Hello from client";
     SendMessageToServers(nameServer, message);
+
+    char nameServer3[40] = "\\\\Masha\\mailslot\\Box";
+    char message3[50] = "Hello from client";
+    SendMessageToServers(nameServer3, message3);
+
+    char nameServer2[40] = "\\\\.\\mailslot\\Box";
+    char message2[50] = "Hello from client";
+    SendMessageToServers(nameServer2, message2);
+
+    
     return 0;
 }

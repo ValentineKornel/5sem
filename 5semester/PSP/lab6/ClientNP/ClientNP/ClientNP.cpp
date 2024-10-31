@@ -134,7 +134,7 @@ int main()
 
 	try {
 		if ((hPipe = CreateFileA(
-			"\\\\MSI\\pipe\\Tube",
+			"\\\\Masha\\pipe\\Tube",
 			GENERIC_READ | GENERIC_WRITE,
 			FILE_SHARE_READ | FILE_SHARE_WRITE,
 			NULL, OPEN_EXISTING, NULL,

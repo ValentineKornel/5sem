@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{0DEF4E34-7857-4298-BEDE-ACF1BF809843}|ClientNP\\ClientNP.vcxproj|solutionrelative:ClientNP\\ClientNP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{329EE928-A886-409F-B957-7FAD2FAC46AB}|ClientNPt\\ClientNPt.vcxproj|D:\\Study\\university\\5semester\\PSP\\lab6\\ClientNP\\ClientNPt\\ClientNPt.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{329EE928-A886-409F-B957-7FAD2FAC46AB}|ClientNPt\\ClientNPt.vcxproj|solutionrelative:ClientNPt\\ClientNPt.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A4DDF1E6-65EB-4E6B-A4A9-F1ADF3DCC86F}|ClientNPct\\ClientNPct.vcxproj|D:\\Study\\university\\5semester\\PSP\\lab6\\ClientNP\\ClientNPct\\ClientNPct.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A4DDF1E6-65EB-4E6B-A4A9-F1ADF3DCC86F}|ClientNPct\\ClientNPct.vcxproj|solutionrelative:ClientNPct\\ClientNPct.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{329EE928-A886-409F-B957-7FAD2FAC46AB}|ClientNPt\\ClientNPt.vcxproj|D:\\Study\\university\\5semester\\PSP\\lab6\\ClientNP\\ClientNPt\\ClientNPt.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{329EE928-A886-409F-B957-7FAD2FAC46AB}|ClientNPt\\ClientNPt.vcxproj|solutionrelative:ClientNPt\\ClientNPt.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,26 +26,26 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ClientNPct.cpp",
               "DocumentMoniker": "D:\\Study\\university\\5semester\\PSP\\lab6\\ClientNP\\ClientNPct\\ClientNPct.cpp",
               "RelativeDocumentMoniker": "ClientNPct\\ClientNPct.cpp",
               "ToolTip": "D:\\Study\\university\\5semester\\PSP\\lab6\\ClientNP\\ClientNPct\\ClientNPct.cpp",
               "RelativeToolTip": "ClientNPct\\ClientNPct.cpp",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAAAGUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-03T11:46:17.539Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ClientNPt.cpp",
               "DocumentMoniker": "D:\\Study\\university\\5semester\\PSP\\lab6\\ClientNP\\ClientNPt\\ClientNPt.cpp",
               "RelativeDocumentMoniker": "ClientNPt\\ClientNPt.cpp",
               "ToolTip": "D:\\Study\\university\\5semester\\PSP\\lab6\\ClientNP\\ClientNPt\\ClientNPt.cpp",
               "RelativeToolTip": "ClientNPt\\ClientNPt.cpp",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAAAIcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-03T11:18:54.451Z",
               "EditorCaption": ""
@@ -58,7 +58,7 @@
               "RelativeDocumentMoniker": "ClientNP\\ClientNP.cpp",
               "ToolTip": "D:\\Study\\university\\5semester\\PSP\\lab6\\ClientNP\\ClientNP\\ClientNP.cpp",
               "RelativeToolTip": "ClientNP\\ClientNP.cpp",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEoAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAAAIUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-03T10:10:44.506Z",
               "EditorCaption": ""
