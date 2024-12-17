@@ -1,0 +1,235 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34EE4C6D-D465-D05C-FB3A-0ECE804CEEB0" schemaObject="8E52596C-9D07-F496-DD40-3E34286F4E3F" name="USERS">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>ADMIN</sourceObjSchema>
+<sourceObjName>USERS</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:38 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="C0E5BCFC-6375-D75F-8499-A97DC42A4A01">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:39 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="USERNAME" id="092DB272-AA42-D679-ADF4-0F436E15486B">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>USERNAME</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:39 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRST_NAME" id="F215BF89-743D-1357-6D61-199D844F5D97">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>FIRST_NAME</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:39 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SECOND_NAME" id="265E651C-6B3A-7AD4-B163-1403700B5AAC">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>SECOND_NAME</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:39 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY" id="5B9A1581-2157-6B9A-CE51-5C16FFBD704B">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>CITY</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:39 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="45D5EE84-4AC5-8212-32FE-18F5A3154793">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:39 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEL" id="CDAAEA5D-E75D-AC32-D7E6-3F9BD120870D">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>TEL</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:39 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROLE" id="AC2DC754-C9AA-E7A1-5B18-2000490658A4">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>ROLE</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:39 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROFILE_IMAGE" id="5771995A-F5CB-4EE6-F813-D99B13FAB5EE">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>PROFILE_IMAGE</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:39 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREDENTIAL_ID" id="6F48A6EC-607D-FFC0-5AD9-3214FF9D73BD">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>CREDENTIAL_ID</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:39 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="094A9AC4-E30A-7556-37E6-812BE75DEA88" referredColumn="26F4FB39-2215-7FD4-C013-85CD5C7242FF"/>
+</associations>
+</Column>
+<Column name="MASTER_INFO_ID" id="6526142C-3C70-A639-2456-BF0A8E0B71BC">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>MASTER_INFO_ID</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:39 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD90B542-99C9-07E2-63C7-0D89D354FEBF" referredColumn="12788566-6BF7-4632-5F8F-210BCCF81F88"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7AC7F446-CF1C-729A-4176-0363F613E4B2" schemaObject="8E52596C-9D07-F496-DD40-3E34286F4E3F" name="USERS_PK">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>ADMIN</sourceObjSchema>
+<sourceObjName>SYS_C008424</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:39 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0E5BCFC-6375-D75F-8499-A97DC42A4A01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F2FE046-4DF5-8D40-6D03-BB776CD95FDD" schemaObject="8E52596C-9D07-F496-DD40-3E34286F4E3F" name="IDX_USERS_NAME">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>ADMIN</sourceObjSchema>
+<sourceObjName>IDX_USERS_NAME</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:39 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="092DB272-AA42-D679-ADF4-0F436E15486B"/>
+<colUsage columnID="F215BF89-743D-1357-6D61-199D844F5D97"/>
+<colUsage columnID="265E651C-6B3A-7AD4-B163-1403700B5AAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4965CA1-3D42-5202-B396-0B26DD280DE5" name="FK_CREDENTIAL">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:44 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F48A6EC-607D-FFC0-5AD9-3214FF9D73BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DCF69AF-267E-5471-76A9-3D619906EFD0" name="FK_MASTERINFO">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:44 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6526142C-3C70-A639-2456-BF0A8E0B71BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

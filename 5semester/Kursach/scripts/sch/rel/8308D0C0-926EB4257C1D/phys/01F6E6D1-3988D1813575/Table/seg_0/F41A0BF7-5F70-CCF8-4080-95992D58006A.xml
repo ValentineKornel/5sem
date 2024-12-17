@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="CREDENTIAL" directorySegmentName="seg_0" id="F41A0BF7-5F70-CCF8-4080-95992D58006A">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:28:48 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<schemaObject>8E52596C-9D07-F496-DD40-3E34286F4E3F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>AED1EDBB-4485-5B96-2643-A9B40A766E36</segment>
+<tableSpace>8D915C03-1E42-15E6-C0A5-54E3F6C87A49</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="26F4FB39-2215-7FD4-C013-85CD5C7242FF">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:28:48 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="USERNAME" id="3F46D279-FFA5-DE50-D862-D99FA12C8DDF">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:28:48 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PASSWORD_HASH" id="75B9791D-DC29-BA99-2902-E4DF3A260EB8">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:28:48 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CREDENTIAL_PK" id="3BF2C82F-872D-8B56-D448-6117B394B2E9">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:28:48 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<schemaObject>8E52596C-9D07-F496-DD40-3E34286F4E3F</schemaObject>
+<segment>6676993C-5E5E-DA50-3E4C-7A8E32979AD9</segment>
+<tableSpace>8D915C03-1E42-15E6-C0A5-54E3F6C87A49</tableSpace>
+<indexSegment>6676993C-5E5E-DA50-3E4C-7A8E32979AD9</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="CREDENTIAL_USERNAME_UN" id="263783A9-9BB4-D03E-5EAC-49141A4BBD03">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:28:48 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<schemaObject>8E52596C-9D07-F496-DD40-3E34286F4E3F</schemaObject>
+<segment>6676993C-5E5E-DA50-3E4C-7A8E32979AD9</segment>
+<tableSpace>8D915C03-1E42-15E6-C0A5-54E3F6C87A49</tableSpace>
+<indexSegment>6676993C-5E5E-DA50-3E4C-7A8E32979AD9</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

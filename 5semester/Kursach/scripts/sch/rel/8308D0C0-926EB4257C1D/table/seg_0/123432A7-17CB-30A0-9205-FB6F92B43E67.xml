@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="123432A7-17CB-30A0-9205-FB6F92B43E67" schemaObject="8E52596C-9D07-F496-DD40-3E34286F4E3F" name="NOTIFICATION">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>ADMIN</sourceObjSchema>
+<sourceObjName>NOTIFICATION</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:29:19 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<importedID>EF3D4E7D-0701-44BF-D141-C65DDFB28B48</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="B7CCFDB6-FF1D-4F6D-5118-A608822E2800">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>NOTIFICATION</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:29:19 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<importedID>7F54E54C-4F1D-A582-F4C0-210B68EC7182</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="RECEIVER_ID" id="26501534-18D8-7D6E-B5E8-26D17528ADF8">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>NOTIFICATION</sourceObjSchema>
+<sourceObjName>RECEIVER_ID</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:29:19 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<importedID>72107DDA-BAE7-CDE7-C715-23F4974B16AF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C4A8131-CB97-5DFE-BC5D-BA2BA1D1121C" referredColumn="C0E5BCFC-6375-D75F-8499-A97DC42A4A01"/>
+</associations>
+</Column>
+<Column name="CREATION_DATE" id="7E67B4BD-AEE8-FE8A-792D-D5E49E7AE2AD">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>NOTIFICATION</sourceObjSchema>
+<sourceObjName>CREATION_DATE</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:29:19 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<importedID>BD40C3D2-DBE2-F5CF-44DC-F47DE005CCD4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MESSAGE" id="E2CD0EF0-A214-984F-F472-704B73869481">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>NOTIFICATION</sourceObjSchema>
+<sourceObjName>MESSAGE</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:29:19 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<importedID>36A62B1C-085C-35F4-1A9D-B2AC4CD1D6AE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITLE" id="B311314F-F2AB-B259-719E-B33B5DDBA833">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>NOTIFICATION</sourceObjSchema>
+<sourceObjName>TITLE</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:29:19 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<importedID>85B5423F-5FDC-682F-4980-A2A4BD5EC392</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WATCHED" id="A53ADD11-0197-0B3C-CF09-B6C4F8B0B450">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>NOTIFICATION</sourceObjSchema>
+<sourceObjName>WATCHED</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:29:19 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<importedID>822AB845-D5B8-51F9-71ED-757FD918BBCD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E4302350-F450-1CCA-73F6-CE58A5363A1F" schemaObject="8E52596C-9D07-F496-DD40-3E34286F4E3F" name="NOTIFICATION_PK">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>ADMIN</sourceObjSchema>
+<sourceObjName>SYS_C008443</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:29:19 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<importedID>6667C52E-DF79-5FBB-BE29-0126D3CFAD0D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7CCFDB6-FF1D-4F6D-5118-A608822E2800"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15D0275D-72E8-1A9F-F322-0E35FB13CE6C" name="FK_NOTIFICATION_USER">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:29:19 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26501534-18D8-7D6E-B5E8-26D17528ADF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

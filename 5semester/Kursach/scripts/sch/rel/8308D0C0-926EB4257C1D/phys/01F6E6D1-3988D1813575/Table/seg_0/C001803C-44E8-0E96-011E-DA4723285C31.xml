@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="BOOKING" directorySegmentName="seg_0" id="C001803C-44E8-0E96-011E-DA4723285C31">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:38 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<schemaObject>8E52596C-9D07-F496-DD40-3E34286F4E3F</schemaObject>
+<logging>YES</logging>
+<partitionList class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionListOraclev11g" name="PL1" id="3132EF20-DD61-1430-5FB9-740EDA784192">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:44 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<columnIDs>BC350056-13C7-0A10-77B8-9F60E0C7144E</columnIDs>
+<intervalExpression>NUMTOYMINTERVAL(1, &apos;MONTH&apos;)</intervalExpression>
+</partitionList>
+<partitioned>YES</partitioned>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>0F9DAAA3-4550-6C7A-8A0D-2A66A7F75D0E</segment>
+<tableSpace>8D915C03-1E42-15E6-C0A5-54E3F6C87A49</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="BOOKED" id="120A2194-F208-BE0E-7C91-D4E4563E48EA">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:39 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="MASTER_ID" id="1E0BC589-48D1-37C8-3760-9DA9B1569FA6">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:39 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SERVICE" id="49B873D5-939A-3392-3114-21F351B2775B">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:39 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BOOKING_DATE" id="BC350056-13C7-0A10-77B8-9F60E0C7144E">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:39 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="BED6C5A3-EC55-8A5B-4F57-81DDDDAABFAC">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:39 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="CLIENT_ID" id="E56105FE-0A2E-E7D0-125A-8BA2A5ABE521">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:39 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIME" id="EDD3834F-DC09-EBF5-9763-77C2E159EB15">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:39 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IDX_BOOKING_DATE" id="596884F9-1E7C-349E-67FC-73C703E17466">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:39 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<schemaObject>8E52596C-9D07-F496-DD40-3E34286F4E3F</schemaObject>
+<partitioned>true</partitioned>
+<indexPartitioned>LOCAL</indexPartitioned>
+<segment>318BA2B1-45F4-C02B-BDAB-84B001E7BE49</segment>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_BOOKING_CLIENT" id="762585E7-3713-7A6A-6AB1-DB098C765462">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:44 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_BOOKING_MASTER" id="C3794AE4-EB88-2300-9AFB-EBECC5DE190C">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:44 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<partitions>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="PART0" id="52119C79-0B50-474F-D2EF-72E81B2544DB">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:44 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<dataSegmentCompression>NO</dataSegmentCompression>
+<logging>YES</logging>
+<position>1</position>
+<segment>0F9DAAA3-4550-6C7A-8A0D-2A66A7F75D0E</segment>
+<tableSpace>8D915C03-1E42-15E6-C0A5-54E3F6C87A49</tableSpace>
+<valueList>TO_DATE(&apos; 2024-01-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP1" id="5CA7D092-0CAF-78B5-B69A-45345CA7ACE0">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:45 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<index>596884F9-1E7C-349E-67FC-73C703E17466</index>
+<logging>YES</logging>
+<partitionName>PART0</partitionName>
+<segment>318BA2B1-45F4-C02B-BDAB-84B001E7BE49</segment>
+<tableSpace>8D915C03-1E42-15E6-C0A5-54E3F6C87A49</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="PART1" id="D0F64352-FE81-2C0B-E730-06B65C74B520">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:44 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<dataSegmentCompression>NO</dataSegmentCompression>
+<logging>YES</logging>
+<position>2</position>
+<segment>0F9DAAA3-4550-6C7A-8A0D-2A66A7F75D0E</segment>
+<tableSpace>8D915C03-1E42-15E6-C0A5-54E3F6C87A49</tableSpace>
+<valueList>TO_DATE(&apos; 2024-02-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP2" id="D6791B09-EC75-0A7C-F33A-0D257EFA43C3">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:45 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<index>596884F9-1E7C-349E-67FC-73C703E17466</index>
+<logging>YES</logging>
+<partitionName>PART1</partitionName>
+<segment>318BA2B1-45F4-C02B-BDAB-84B001E7BE49</segment>
+<tableSpace>8D915C03-1E42-15E6-C0A5-54E3F6C87A49</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionOraclev11g" name="SYS_P541" id="2E1517FA-7B52-C91E-E84B-1463CD2336F0">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:44 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<dataSegmentCompression>NO</dataSegmentCompression>
+<logging>YES</logging>
+<position>3</position>
+<segment>7EA13804-44BD-0C4E-FA16-4BBC1A44A8FD</segment>
+<tableSpace>8D915C03-1E42-15E6-C0A5-54E3F6C87A49</tableSpace>
+<valueList>TO_DATE(&apos; 2025-01-01 00:00:00&apos;, &apos;SYYYY-MM-DD HH24:MI:SS&apos;, &apos;NLS_CALENDAR=GREGORIAN&apos;)</valueList>
+<localIndexProperties>
+<LocalIndexProperties class="oracle.dbtools.crest.model.design.storage.oracle.LocalIndexProperties" name="LIP3" id="9CD5060C-16E4-8651-2443-6892CDDA4F28">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:45 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<index>596884F9-1E7C-349E-67FC-73C703E17466</index>
+<logging>YES</logging>
+<partitionName>SYS_P541</partitionName>
+<segment>6676993C-5E5E-DA50-3E4C-7A8E32979AD9</segment>
+<tableSpace>8D915C03-1E42-15E6-C0A5-54E3F6C87A49</tableSpace>
+</LocalIndexProperties>
+</localIndexProperties>
+</Partition>
+</partitions>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BOOKING_PK" id="A462CAF8-CC63-2135-1C9E-5BCA36DC89D6">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:24:42 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<schemaObject>8E52596C-9D07-F496-DD40-3E34286F4E3F</schemaObject>
+<segment>6676993C-5E5E-DA50-3E4C-7A8E32979AD9</segment>
+<tableSpace>8D915C03-1E42-15E6-C0A5-54E3F6C87A49</tableSpace>
+<indexSegment>6676993C-5E5E-DA50-3E4C-7A8E32979AD9</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

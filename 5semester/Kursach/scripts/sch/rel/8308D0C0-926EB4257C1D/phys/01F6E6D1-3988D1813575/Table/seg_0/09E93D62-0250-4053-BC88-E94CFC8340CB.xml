@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="REQUEST" directorySegmentName="seg_0" id="09E93D62-0250-4053-BC88-E94CFC8340CB">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:29:19 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<schemaObject>8E52596C-9D07-F496-DD40-3E34286F4E3F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>AED1EDBB-4485-5B96-2643-A9B40A766E36</segment>
+<tableSpace>8D915C03-1E42-15E6-C0A5-54E3F6C87A49</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="REQUEST_IMAGE" id="54178561-3509-BFB1-EF2B-481CA1DDAA32">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:29:19 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="92D8859E-04A7-3B25-52F2-877E62D5E77C">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:29:19 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="CREATION_DATE" id="D2E03D10-4C88-C305-BD31-7451DDD74B2D">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:29:19 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COVER_LETTER" id="EAB0A48C-B398-4ED0-9684-A46998B90DCC">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:29:19 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USER_ID" id="FB8B6686-EA2F-1974-1897-F5FEDBEE7932">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:29:19 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_REQUEST_USER" id="22CC0AD7-0730-A3F2-396A-A28491EEC09A">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:29:19 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<lobStorages>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000076568C00004$$" id="FA2E0FF0-A385-C277-6683-8E6F6F26F3B3">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:29:19 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>REQUEST_IMAGE</column>
+<compression>NO</compression>
+<duplication>KEEP_DUPLICATES</duplication>
+<logging>YES</logging>
+<tableSpace>8D915C03-1E42-15E6-C0A5-54E3F6C87A49</tableSpace>
+<lobStorageType>SECUREFILE</lobStorageType>
+</LobStorage>
+</lobStorages>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="REQUEST_PK" id="0C3375EC-5BEB-6111-AEF9-E3012D9BB11E">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:29:19 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<schemaObject>8E52596C-9D07-F496-DD40-3E34286F4E3F</schemaObject>
+<segment>6676993C-5E5E-DA50-3E4C-7A8E32979AD9</segment>
+<tableSpace>8D915C03-1E42-15E6-C0A5-54E3F6C87A49</tableSpace>
+<indexSegment>6676993C-5E5E-DA50-3E4C-7A8E32979AD9</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

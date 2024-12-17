@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8298CBF-F8F4-4320-AA73-403ED489E799" schemaObject="8E52596C-9D07-F496-DD40-3E34286F4E3F" name="MASTERS_FOLLOWERS">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>ADMIN</sourceObjSchema>
+<sourceObjName>MASTERS_FOLLOWERS</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:29:19 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<importedID>ED2CC269-4909-17F9-C0B0-065FF644CAAB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CLIENT_ID" id="01723C28-7D2E-4703-6378-B051123120A4">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>MASTERS_FOLLOWERS</sourceObjSchema>
+<sourceObjName>CLIENT_ID</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:29:19 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<importedID>E040BF62-C2E4-9490-7659-977CD709FE32</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84881FF2-D430-1884-7B2C-0AC8A679ACDF" referredColumn="C0E5BCFC-6375-D75F-8499-A97DC42A4A01"/>
+</associations>
+</Column>
+<Column name="MASTER_ID" id="5322AC29-775A-133D-AA20-B3DF59F915F6">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>MASTERS_FOLLOWERS</sourceObjSchema>
+<sourceObjName>MASTER_ID</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:29:19 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<importedID>6AC6D9E0-3EE0-D3F6-93B5-DB61266C0DF1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A6BC3E5-9069-1E45-90A2-29FA679B4AA0" referredColumn="C0E5BCFC-6375-D75F-8499-A97DC42A4A01"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C88F3240-AB7C-E4CB-30F2-F667A82AC88F" name="PK_MASTERS_FOLLOWERS">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>ADMIN</sourceObjSchema>
+<sourceObjName>PK_MASTERS_FOLLOWERS</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:29:19 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<importedID>1DC37C7C-9E18-C9F7-F167-FBB6D419E0EA</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01723C28-7D2E-4703-6378-B051123120A4"/>
+<colUsage columnID="5322AC29-775A-133D-AA20-B3DF59F915F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88E60E1E-7D55-95B7-52F1-0173E84D8DC4" schemaObject="8E52596C-9D07-F496-DD40-3E34286F4E3F" name="PK_MASTERS_FOLLOWERS">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>ADMIN</sourceObjSchema>
+<sourceObjName>PK_MASTERS_FOLLOWERS</sourceObjName>
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:29:19 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<importedID>007FB5E8-F206-9E97-0DF6-3727A312BCC5</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01723C28-7D2E-4703-6378-B051123120A4"/>
+<colUsage columnID="5322AC29-775A-133D-AA20-B3DF59F915F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFDF34D6-C393-8019-92D2-F714F1715076" name="FK_MASTERS_FOLLOWERS_CLIENT">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:29:19 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01723C28-7D2E-4703-6378-B051123120A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18223D31-AD88-40F7-6B30-E2B3123D5CF3" name="FK_MASTERS_FOLLOWERS_MASTER">
+<createdBy>Valentine Korneliuk</createdBy>
+<createdTime>2024-12-17 14:29:19 UTC</createdTime>
+<ownerDesignName>sch</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5322AC29-775A-133D-AA20-B3DF59F915F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
