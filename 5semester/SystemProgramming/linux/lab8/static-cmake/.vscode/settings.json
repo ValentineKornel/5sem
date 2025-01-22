@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "mappings.h": "c",
+        "stdio.h": "c",
+        "stdlib.h": "c"
+    }
+}

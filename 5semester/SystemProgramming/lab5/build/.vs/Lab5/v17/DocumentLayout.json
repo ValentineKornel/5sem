@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\university\\5semester\\SP\\lab5\\build\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{03928EDA-4983-3284-AADE-605D990530DA}|Lab-05c.vcxproj|D:\\Study\\university\\5semester\\SP\\lab5\\Lab-05c.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE8FF66-349E-34FA-B547-47FAC7D00CFA}|Lab-05b.vcxproj|D:\\Study\\university\\5semester\\SP\\lab5\\Lab-05b.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AC4A52-FDDA-375B-B688-77C92CCC1E51}|Lab-05a.vcxproj|D:\\Study\\university\\5semester\\SP\\lab5\\Lab-05a.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lab-05c.c",
+              "DocumentMoniker": "D:\\Study\\university\\5semester\\SP\\lab5\\Lab-05c.c",
+              "RelativeDocumentMoniker": "..\\Lab-05c.c",
+              "ToolTip": "D:\\Study\\university\\5semester\\SP\\lab5\\Lab-05c.c",
+              "RelativeToolTip": "..\\Lab-05c.c",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-31T19:03:30.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lab-05b.c",
+              "DocumentMoniker": "D:\\Study\\university\\5semester\\SP\\lab5\\Lab-05b.c",
+              "RelativeDocumentMoniker": "..\\Lab-05b.c",
+              "ToolTip": "D:\\Study\\university\\5semester\\SP\\lab5\\Lab-05b.c",
+              "RelativeToolTip": "..\\Lab-05b.c",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADIAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-31T19:03:27.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lab-05a.c",
+              "DocumentMoniker": "D:\\Study\\university\\5semester\\SP\\lab5\\Lab-05a.c",
+              "RelativeDocumentMoniker": "..\\Lab-05a.c",
+              "ToolTip": "D:\\Study\\university\\5semester\\SP\\lab5\\Lab-05a.c",
+              "RelativeToolTip": "..\\Lab-05a.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-31T19:03:24.791Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

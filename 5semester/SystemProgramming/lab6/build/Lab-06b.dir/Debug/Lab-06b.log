@@ -1,0 +1,3 @@
+﻿D:\Study\university\5semester\SP\lab6\Lab-06b.c(175,34): warning : illegal character encoding in string literal [-Winvalid-source-encoding]
+D:\Study\university\5semester\SP\lab6\Lab-06b.c(185,38): warning : illegal character encoding in string literal [-Winvalid-source-encoding]
+  Lab-06b.vcxproj -> D:\Study\university\5semester\SP\lab6\build\Debug\Lab-06b.exe

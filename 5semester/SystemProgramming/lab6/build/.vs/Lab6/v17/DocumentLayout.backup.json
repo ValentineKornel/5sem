@@ -1,0 +1,97 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\university\\5semester\\SP\\lab6\\build\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9AFE111E-197E-3082-9B0C-2A66B08F2225}|Lab-06c.vcxproj|D:\\Study\\university\\5semester\\SP\\lab6\\Lab-06c.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C2492A-7F8F-3559-806D-A735FB99FACB}|Lab-07a.vcxproj|D:\\Study\\university\\5semester\\SP\\lab6\\build\\oldVersion.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{16C2492A-7F8F-3559-806D-A735FB99FACB}|Lab-07a.vcxproj|solutionrelative:oldVersion.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611CB148-3BB4-3DDB-85BE-CD7001E1CECE}|Lab-06b.vcxproj|D:\\Study\\university\\5semester\\SP\\lab6\\Lab-06b.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C2492A-7F8F-3559-806D-A735FB99FACB}|Lab-07a.vcxproj|D:\\Study\\university\\5semester\\SP\\lab6\\Lab-07a.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70C7CE1B-787B-3108-BADF-42C890519222}|Lab-06a.vcxproj|D:\\Study\\university\\5semester\\SP\\lab6\\Lab-06a.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "oldVersion.c",
+              "DocumentMoniker": "D:\\Study\\university\\5semester\\SP\\lab6\\build\\oldVersion.c",
+              "RelativeDocumentMoniker": "oldVersion.c",
+              "ToolTip": "D:\\Study\\university\\5semester\\SP\\lab6\\build\\oldVersion.c",
+              "RelativeToolTip": "oldVersion.c",
+              "ViewState": "AgIAANkAAAAAAAAAAAAowDwBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-21T11:02:20.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Lab-07a.c",
+              "DocumentMoniker": "D:\\Study\\university\\5semester\\SP\\lab6\\Lab-07a.c",
+              "RelativeDocumentMoniker": "..\\Lab-07a.c",
+              "ToolTip": "D:\\Study\\university\\5semester\\SP\\lab6\\Lab-07a.c",
+              "RelativeToolTip": "..\\Lab-07a.c",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-14T17:37:57.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lab-06c.c",
+              "DocumentMoniker": "D:\\Study\\university\\5semester\\SP\\lab6\\Lab-06c.c",
+              "RelativeDocumentMoniker": "..\\Lab-06c.c",
+              "ToolTip": "D:\\Study\\university\\5semester\\SP\\lab6\\Lab-06c.c",
+              "RelativeToolTip": "..\\Lab-06c.c",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAIgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-14T17:37:53.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lab-06b.c",
+              "DocumentMoniker": "D:\\Study\\university\\5semester\\SP\\lab6\\Lab-06b.c",
+              "RelativeDocumentMoniker": "..\\Lab-06b.c",
+              "ToolTip": "D:\\Study\\university\\5semester\\SP\\lab6\\Lab-06b.c",
+              "RelativeToolTip": "..\\Lab-06b.c",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-14T17:37:51.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Lab-06a.c",
+              "DocumentMoniker": "D:\\Study\\university\\5semester\\SP\\lab6\\Lab-06a.c",
+              "RelativeDocumentMoniker": "..\\Lab-06a.c",
+              "ToolTip": "D:\\Study\\university\\5semester\\SP\\lab6\\Lab-06a.c",
+              "RelativeToolTip": "..\\Lab-06a.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-14T17:37:46.268Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[Unit]
+Description=watch directory daemon
+
+[Service]
+Type=exec
+ExecStart=/usr/sbin/Service09d
+
+[Install]
+WantedBy=multi-user.target
+

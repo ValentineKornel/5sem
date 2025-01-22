@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "mylib.h": "c",
+        "mappingd-2.h": "c",
+        "mappingd.h": "c"
+    }
+}

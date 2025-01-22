@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/OS05_04.dir/OS05_04.cpp.o -o OS05_04 

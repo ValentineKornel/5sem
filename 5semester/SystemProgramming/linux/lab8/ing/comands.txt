@@ -1,0 +1,5 @@
+gcc -fPIC -c MyLib.c
+gcc -shared -o MyLib.so MyLib.o
+gcc -o ing ing.c
+LD_PRELOAD=./MyLib.so ldd ./ing
+./ing

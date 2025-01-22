@@ -1,0 +1,6 @@
+﻿  RsConsole.cpp
+D:\Study\university\5semester\PSP\lab8-10\RsConsole\RsConsole\RsConsole.cpp(39,36): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\Study\university\5semester\PSP\lab8-10\RsConsole\RsConsole\RsConsole.cpp(109,60): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\Study\university\5semester\PSP\lab8-10\RsConsole\RsConsole\RsConsole.cpp(66,7): warning C4101: 'serverName': unreferenced local variable
+D:\Study\university\5semester\PSP\lab8-10\RsConsole\RsConsole\RsConsole.cpp(68,7): warning C4101: 'result': unreferenced local variable
+  RsConsole.vcxproj -> D:\Study\university\5semester\PSP\lab8-10\RsConsole\x64\Debug\RsConsole.exe

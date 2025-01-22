@@ -1,0 +1,5 @@
+/home/valentine/labs/sp/lab5/build/CMakeFiles/Lab-05d.dir
+/home/valentine/labs/sp/lab5/build/CMakeFiles/Lab-05e.dir
+/home/valentine/labs/sp/lab5/build/CMakeFiles/Lab-05f.dir
+/home/valentine/labs/sp/lab5/build/CMakeFiles/edit_cache.dir
+/home/valentine/labs/sp/lab5/build/CMakeFiles/rebuild_cache.dir

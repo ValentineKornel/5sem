@@ -1,6 +1,0 @@
-﻿  CountWords.c
-D:\Study\university\5semester\SP\lab1\Lab1\Lab1\CountWords.c(96,11): warning C4566: character represented by universal-character-name '\U0001F603' cannot be represented in the current code page (1251)
-D:\Study\university\5semester\SP\lab1\Lab1\Lab1\CountWords.c(96,11): warning C4566: character represented by universal-character-name '\U0001F30D' cannot be represented in the current code page (1251)
-D:\Study\university\5semester\SP\lab1\Lab1\Lab1\CountWords.c(98,35): warning C4566: character represented by universal-character-name '\U0001F603' cannot be represented in the current code page (1251)
-D:\Study\university\5semester\SP\lab1\Lab1\Lab1\CountWords.c(98,35): warning C4566: character represented by universal-character-name '\U0001F30D' cannot be represented in the current code page (1251)
-  Lab1.vcxproj -> D:\Study\university\5semester\SP\lab1\Lab1\Debug\Lab1.exe

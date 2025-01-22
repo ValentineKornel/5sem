@@ -1,0 +1,12 @@
+/home/valentine/labs/sp/lab8/static-cmake/build/CMakeFiles/edit_cache.dir
+/home/valentine/labs/sp/lab8/static-cmake/build/CMakeFiles/rebuild_cache.dir
+/home/valentine/labs/sp/lab8/static-cmake/build/MainProject/CMakeFiles/edit_cache.dir
+/home/valentine/labs/sp/lab8/static-cmake/build/MainProject/CMakeFiles/rebuild_cache.dir
+/home/valentine/labs/sp/lab8/static-cmake/build/MainProject/src/CMakeFiles/Lab-08c.dir
+/home/valentine/labs/sp/lab8/static-cmake/build/MainProject/src/CMakeFiles/edit_cache.dir
+/home/valentine/labs/sp/lab8/static-cmake/build/MainProject/src/CMakeFiles/rebuild_cache.dir
+/home/valentine/labs/sp/lab8/static-cmake/build/LibProject/CMakeFiles/edit_cache.dir
+/home/valentine/labs/sp/lab8/static-cmake/build/LibProject/CMakeFiles/rebuild_cache.dir
+/home/valentine/labs/sp/lab8/static-cmake/build/LibProject/src/CMakeFiles/LibProject.dir
+/home/valentine/labs/sp/lab8/static-cmake/build/LibProject/src/CMakeFiles/edit_cache.dir
+/home/valentine/labs/sp/lab8/static-cmake/build/LibProject/src/CMakeFiles/rebuild_cache.dir

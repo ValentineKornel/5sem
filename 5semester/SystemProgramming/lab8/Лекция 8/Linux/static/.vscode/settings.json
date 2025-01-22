@@ -1,0 +1,4 @@
+{
+    "clangd.arguments": ["--enable-config"],
+    "cmake.cmakePath": "cmake"
+}

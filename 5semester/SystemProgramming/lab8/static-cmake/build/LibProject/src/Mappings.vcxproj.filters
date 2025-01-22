@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Study\university\5semester\SP\lab8\static-cmake\LibProject\src\Mappings.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\university\5semester\SP\lab8\static-cmake\LibProject\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{08F4B18C-A6A0-324D-AAEE-20BCD9A2FFA8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

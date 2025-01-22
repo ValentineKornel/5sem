@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\university\\5semester\\PSP\\lab8-10\\Client\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC4A98B-C7E2-43F7-8B11-4638A657D952}|ClientEcho\\ClientEcho.vcxproj|D:\\Study\\university\\5semester\\PSP\\lab8-10\\Client\\ClientEcho\\ClientEcho.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AFC4A98B-C7E2-43F7-8B11-4638A657D952}|ClientEcho\\ClientEcho.vcxproj|solutionrelative:ClientEcho\\ClientEcho.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{415A4160-5B35-4D43-8FF9-F005730E9A92}|ClientTime\\ClientTime.vcxproj|D:\\Study\\university\\5semester\\PSP\\lab8-10\\Client\\ClientTime\\ClientTime.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{415A4160-5B35-4D43-8FF9-F005730E9A92}|ClientTime\\ClientTime.vcxproj|solutionrelative:ClientTime\\ClientTime.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F2263D2-6C89-4D7B-99E7-3118C6FE436E}|ClientRandom\\ClientRandom.vcxproj|D:\\Study\\university\\5semester\\PSP\\lab8-10\\Client\\ClientRandom\\ClientRandom.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1F2263D2-6C89-4D7B-99E7-3118C6FE436E}|ClientRandom\\ClientRandom.vcxproj|solutionrelative:ClientRandom\\ClientRandom.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientEcho.cpp",
+              "DocumentMoniker": "D:\\Study\\university\\5semester\\PSP\\lab8-10\\Client\\ClientEcho\\ClientEcho.cpp",
+              "RelativeDocumentMoniker": "ClientEcho\\ClientEcho.cpp",
+              "ToolTip": "D:\\Study\\university\\5semester\\PSP\\lab8-10\\Client\\ClientEcho\\ClientEcho.cpp",
+              "RelativeToolTip": "ClientEcho\\ClientEcho.cpp",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAAANwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-11T05:46:57.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClientRandom.cpp",
+              "DocumentMoniker": "D:\\Study\\university\\5semester\\PSP\\lab8-10\\Client\\ClientRandom\\ClientRandom.cpp",
+              "RelativeDocumentMoniker": "ClientRandom\\ClientRandom.cpp",
+              "ToolTip": "D:\\Study\\university\\5semester\\PSP\\lab8-10\\Client\\ClientRandom\\ClientRandom.cpp",
+              "RelativeToolTip": "ClientRandom\\ClientRandom.cpp",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAowH0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-11T05:45:21.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientTime.cpp",
+              "DocumentMoniker": "D:\\Study\\university\\5semester\\PSP\\lab8-10\\Client\\ClientTime\\ClientTime.cpp",
+              "RelativeDocumentMoniker": "ClientTime\\ClientTime.cpp",
+              "ToolTip": "D:\\Study\\university\\5semester\\PSP\\lab8-10\\Client\\ClientTime\\ClientTime.cpp",
+              "RelativeToolTip": "ClientTime\\ClientTime.cpp",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAAANwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-11T05:43:16.399Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

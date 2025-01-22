@@ -3,13 +3,14 @@
 --C:\app\valen\product\21c\homes\OraDB21Home1\network\admin\tnsname.ora
 
 --2
---s1pplus system
+--sqlplus system
 select NAME, DESCRIPTION, VALUE from v$parameter;
 
 --3
 --sqlplus system/password@//localhost:1521/xepdb1
 select TABLESPACE_NAME from dba_tablespaces;
 select TABLESPACE_NAME, FILE_NAME from dba_data_files;
+select TABLESPACE_NAME, FILE_NAME from dba_temp_files;
 select ROLE from dba_roles;
 select USERNAME from dba_users;
 
@@ -32,7 +33,7 @@ select * from myTable;
 
 --8
 --help timing
---timing on
+--set timing on
 --select * from myTable;
 
 --9
@@ -45,13 +46,12 @@ select SEGMENT_NAME from user_segments;
 --11
 create view view_segments as
     select count(SEGMENT_NAME) segments_count, sum(EXTENTS) extents_count,
-           sum(BLOCKS) bloks_count, sum(BYTES) memory_size
+           sum(BLOCKS) bloks_count, (sum(BYTES)/1024) memory_size
     from user_segments;
     
---create view view_segments as select count(SEGMENT_NAME) segments_count, sum(EXTENTS) extents_count, sum(BLOCKS) bloks_count, sum(BYTES) memory_size from user_segments;
+--create view view_segments as select count(SEGMENT_NAME) segments_count, sum(EXTENTS) extents_count, sum(BLOCKS) bloks_count, (sum(BYTES)/1024) memory_size from user_segments;
 
 select * from view_segments;
-
 
 
 

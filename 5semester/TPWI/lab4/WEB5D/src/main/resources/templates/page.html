@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Показ изображения</title>
+    <link rel="stylesheet" href="/css?cache_parm=max-age"/>
+    <link href="/css?cache_parm=no-store"/>
+    <link href="/css?cache_parm=last-modified"/>
+    <link href="/css?cache_parm=etag"/>
+    <link href="/css?cache_parm=expired"/>
+
+</head>
+<body>
+<h1>Изображение с кешированием</h1>
+<p>Изображение с кешированием (max-age):</p>
+<img src="/image?cache_parm=max-age" alt="PNG Image" width="400" height="400">
+
+<p>Изображение с отключенным кешированием (no-store):</p>
+<img src="/image?cache_parm=no-store" alt="PNG Image" width="400" height="400">
+
+<p>Изображение с Last-Modified заголовком:</p>
+<img src="/image?cache_parm=last-modified" alt="PNG Image" width="400" height="400">
+
+<p>Изображение с ETag заголовком:</p>
+<img src="/image?cache_parm=etag" alt="PNG Image" width="400" height="400">
+
+<p>Изображение с Expired заголовком:</p>
+<img src="/image?cache_parm=expired" alt="PNG Image" width="400" height="400">
+
+</body>
+<script src="/script?cache_parm=max-age"></script>
+<script src="/script?cache_parm=no-store"></script>
+<script src="/script?cache_parm=last-modified"></script>
+<script src="/script?cache_parm=etag"></script>
+<script src="/script?cache_parm=expired"></script>
+</html>

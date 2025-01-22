@@ -1,0 +1,6 @@
+D:/Study/university/5semester/SP/lab6/build/CMakeFiles/Lab-06a.dir
+D:/Study/university/5semester/SP/lab6/build/CMakeFiles/Lab-06b.dir
+D:/Study/university/5semester/SP/lab6/build/CMakeFiles/Lab-06c.dir
+D:/Study/university/5semester/SP/lab6/build/CMakeFiles/Lab-07a.dir
+D:/Study/university/5semester/SP/lab6/build/CMakeFiles/ALL_BUILD.dir
+D:/Study/university/5semester/SP/lab6/build/CMakeFiles/ZERO_CHECK.dir

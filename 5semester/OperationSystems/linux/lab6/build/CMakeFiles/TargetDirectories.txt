@@ -1,0 +1,5 @@
+/home/valentine/labs/os/lab6/build/CMakeFiles/OS06_06.dir
+/home/valentine/labs/os/lab6/build/CMakeFiles/OS06_06A.dir
+/home/valentine/labs/os/lab6/build/CMakeFiles/OS06_06B.dir
+/home/valentine/labs/os/lab6/build/CMakeFiles/edit_cache.dir
+/home/valentine/labs/os/lab6/build/CMakeFiles/rebuild_cache.dir

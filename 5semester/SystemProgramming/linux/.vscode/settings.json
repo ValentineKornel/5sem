@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "fifo_seqnum.h": "c",
+        "tlpi_hdr.h": "c",
+        "error_functions.h": "c",
+        "errno.h": "c"
+    }
+}

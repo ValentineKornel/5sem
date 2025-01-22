@@ -1,0 +1,37 @@
+﻿  ConcurrentServer.cpp
+D:\Study\university\5semester\PSP\lab8-10\ConcurrentServer\ConcurrentServer\ConcurrentServer.cpp(14,9): warning C4005: 'INADDR_ANY': macro redefinition
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(600,9):
+      see previous definition of 'INADDR_ANY'
+  
+D:\Study\university\5semester\PSP\lab8-10\ConcurrentServer\ConcurrentServer\ConcurrentServer.cpp(16,9): warning C4005: 'INADDR_BROADCAST': macro redefinition
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(602,9):
+      see previous definition of 'INADDR_BROADCAST'
+  
+D:\Study\university\5semester\PSP\lab8-10\ConcurrentServer\ConcurrentServer\ConcurrentServer.cpp(274,20): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+      D:\Study\university\5semester\PSP\lab8-10\ConcurrentServer\ConcurrentServer\ConcurrentServer.cpp(274,20):
+      consider using '%zd' in the format string
+  
+D:\Study\university\5semester\PSP\lab8-10\ConcurrentServer\ConcurrentServer\ConcurrentServer.cpp(286,20): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+      D:\Study\university\5semester\PSP\lab8-10\ConcurrentServer\ConcurrentServer\ConcurrentServer.cpp(286,20):
+      consider using '%zd' in the format string
+  
+D:\Study\university\5semester\PSP\lab8-10\ConcurrentServer\ConcurrentServer\ConcurrentServer.cpp(359,51): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Study\university\5semester\PSP\lab8-10\ConcurrentServer\ConcurrentServer\ConcurrentServer.cpp(401,83): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Study\university\5semester\PSP\lab8-10\ConcurrentServer\ConcurrentServer\ConcurrentServer.cpp(409,85): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Study\university\5semester\PSP\lab8-10\ConcurrentServer\ConcurrentServer\ConcurrentServer.cpp(422,151): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Study\university\5semester\PSP\lab8-10\ConcurrentServer\ConcurrentServer\ConcurrentServer.cpp(433,151): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Study\university\5semester\PSP\lab8-10\ConcurrentServer\ConcurrentServer\ConcurrentServer.cpp(444,151): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Study\university\5semester\PSP\lab8-10\ConcurrentServer\ConcurrentServer\ConcurrentServer.cpp(495,45): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Study\university\5semester\PSP\lab8-10\ConcurrentServer\ConcurrentServer\ConcurrentServer.cpp(585,1): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 4 has type 'unsigned __int64'
+      D:\Study\university\5semester\PSP\lab8-10\ConcurrentServer\ConcurrentServer\ConcurrentServer.cpp(585,1):
+      consider using '%zd' in the format string
+  
+D:\Study\university\5semester\PSP\lab8-10\ConcurrentServer\ConcurrentServer\ConcurrentServer.cpp(667,1): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 4 has type 'unsigned __int64'
+      D:\Study\university\5semester\PSP\lab8-10\ConcurrentServer\ConcurrentServer\ConcurrentServer.cpp(667,1):
+      consider using '%zd' in the format string
+  
+D:\Study\university\5semester\PSP\lab8-10\ConcurrentServer\ConcurrentServer\ConcurrentServer.cpp(676,57): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\Study\university\5semester\PSP\lab8-10\ConcurrentServer\ConcurrentServer\ConcurrentServer.cpp(345,1): warning C4715: 'set_param': not all control paths return a value
+D:\Study\university\5semester\PSP\lab8-10\ConcurrentServer\ConcurrentServer\ConcurrentServer.cpp(632,1): warning C4715: 'ConsolePipeSocket': not all control paths return a value
+D:\Study\university\5semester\PSP\lab8-10\ConcurrentServer\ConcurrentServer\ConcurrentServer.cpp(821,1): warning C4715: 'ScheduleBox': not all control paths return a value
+  ConcurrentServer.vcxproj -> D:\Study\university\5semester\PSP\lab8-10\ConcurrentServer\x64\Debug\ConcurrentServer.exe

@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/OS05_05.dir/OS05_05.c.o -o OS05_05 

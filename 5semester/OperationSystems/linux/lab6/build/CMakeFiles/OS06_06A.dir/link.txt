@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/OS06_06A.dir/06_06A.cpp.o -o OS06_06A 

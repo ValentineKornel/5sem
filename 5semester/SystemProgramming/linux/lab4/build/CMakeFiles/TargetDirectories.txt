@@ -1,0 +1,4 @@
+/home/valentine/labs/sp/lab4/build/CMakeFiles/Lab-04.dir
+/home/valentine/labs/sp/lab4/build/CMakeFiles/Lab-04b.dir
+/home/valentine/labs/sp/lab4/build/CMakeFiles/edit_cache.dir
+/home/valentine/labs/sp/lab4/build/CMakeFiles/rebuild_cache.dir

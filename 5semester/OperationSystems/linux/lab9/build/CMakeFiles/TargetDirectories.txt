@@ -1,0 +1,5 @@
+/home/valentine/labs/os/lab9/build/CMakeFiles/08_05.dir
+/home/valentine/labs/os/lab9/build/CMakeFiles/08_06.dir
+/home/valentine/labs/os/lab9/build/CMakeFiles/08_07.dir
+/home/valentine/labs/os/lab9/build/CMakeFiles/edit_cache.dir
+/home/valentine/labs/os/lab9/build/CMakeFiles/rebuild_cache.dir

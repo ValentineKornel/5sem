@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLibProject.a CMakeFiles/LibProject.dir/Mappings.c.o
+/usr/bin/ranlib libLibProject.a

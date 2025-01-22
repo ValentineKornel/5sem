@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/Service09d.dir/auto_daemon.c.o CMakeFiles/Service09d.dir/become_daemon.c.o -o Service09d 

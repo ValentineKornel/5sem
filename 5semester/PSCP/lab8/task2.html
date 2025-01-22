@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Request and Response Headers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ddd;
+            overflow-x: auto;
+        }
+        button {
+            padding: 10px 20px;
+            margin-top: 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Request Headers</h1>
+    <pre id="request-headers">Loading...</pre>
+    
+    <h1>Response Headers</h1>
+    <pre id="response-headers">Loading...</pre>
+
+    <button id="fetch-button">Send Request</button>
+
+    <script>
+        function fetchData() {
+            fetch('http://localhost:5000/headers', {
+            method: 'GET'
+        })
+        .then(response => {
+            const headers = {};
+            response.headers.forEach((value, key) => {
+                headers[key] = value;
+            });
+
+            document.getElementById('response-headers').textContent = JSON.stringify(headers, null, 2);
+
+            // Возвращаем текст ответа
+            return response.json();
+        })
+        .then(body => {
+            // Обновляем блок с телом ответа
+            document.getElementById('request-headers').textContent = JSON.stringify(body, null, 2);
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+        }
+
+        window.onload = function() {
+            document.getElementById('fetch-button').addEventListener('click', fetchData);
+        }
+    </script>
+</body>
+</html>

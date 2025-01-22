@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.10)
+
+set(CMAKE_C_COMPILER clang)
+project(Lab9)
+
+add_executable(Service09 Service09.c)
+add_executable(ServiceCtl ServiceCtl.c)

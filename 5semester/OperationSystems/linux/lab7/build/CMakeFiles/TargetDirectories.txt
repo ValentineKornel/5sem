@@ -1,0 +1,4 @@
+/home/valentine/labs/os/lab7/build/CMakeFiles/07_05.dir
+/home/valentine/labs/os/lab7/build/CMakeFiles/07_06.dir
+/home/valentine/labs/os/lab7/build/CMakeFiles/edit_cache.dir
+/home/valentine/labs/os/lab7/build/CMakeFiles/rebuild_cache.dir

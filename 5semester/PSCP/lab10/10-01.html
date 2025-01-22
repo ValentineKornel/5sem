@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10-01</title>
+</head>
+<body>
+    <h1>10-01</h1>
+    <script>
+        let m = 0;
+        function startWS(){
+            let clientId = ++m;
+            let n = 0;
+            let socket = new WebSocket('ws:/localhost:4000/wsserver');
+
+            socket.onopen = ()=> {
+                console.log('socket open');
+                let intervalId = setInterval(() => {socket.send(`10-01-client${clientId}: ${++n}`)}, 3000);
+                
+                setTimeout(() => {
+                    clearInterval(intervalId);
+                    socket.close();
+                }, 25000)
+            }
+
+            socket.onclose = (e)=> {
+                console.log('socket.onclose ', e);
+            }
+
+            socket.onmessage = (e)=> {
+                console.log('socket.onmessage ', e.data);
+            } 
+
+            socket.onerror = function(error) {alert("Error " + error.message)}
+        }
+    </script>
+    <button onclick="startWS()">startWS</button>
+</body>
+</html>

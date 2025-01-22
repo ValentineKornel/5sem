@@ -1,0 +1,10 @@
+^D:\STUDY\UNIVERSITY\5SEMESTER\SP\LAB8\STATIC-CMAKE\BUILD\CMAKEFILES\A4719DCBE8451CCD01133BB39932AC2D\GENERATE.STAMP.RULE
+setlocal
+"D:\Progtam files1\VisualStudio\main\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Study/university/5semester/SP/lab8/static-cmake -BD:/Study/university/5semester/SP/lab8/static-cmake/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Study/university/5semester/SP/lab8/static-cmake/build/Lab8.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

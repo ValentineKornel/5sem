@@ -1,0 +1,4 @@
+﻿  OS09_04.cpp
+D:\Study\university\5semester\OS\lab9\Lab09\Lab09\OS09_04\OS09_04.cpp(75,55): warning C4244: 'argument': conversion from 'LONGLONG' to 'DWORD', possible loss of data
+D:\Study\university\5semester\OS\lab9\Lab09\Lab09\OS09_04\OS09_04.cpp(90,25): warning C4018: '>': signed/unsigned mismatch
+  OS09_04.vcxproj -> D:\Study\university\5semester\OS\lab9\Lab09\Lab09\x64\Debug\OS09_04.exe

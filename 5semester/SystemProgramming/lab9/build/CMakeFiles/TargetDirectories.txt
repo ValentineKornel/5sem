@@ -1,0 +1,4 @@
+D:/Study/university/5semester/SP/lab9/build/CMakeFiles/Service09.dir
+D:/Study/university/5semester/SP/lab9/build/CMakeFiles/ServiceCtl.dir
+D:/Study/university/5semester/SP/lab9/build/CMakeFiles/ALL_BUILD.dir
+D:/Study/university/5semester/SP/lab9/build/CMakeFiles/ZERO_CHECK.dir

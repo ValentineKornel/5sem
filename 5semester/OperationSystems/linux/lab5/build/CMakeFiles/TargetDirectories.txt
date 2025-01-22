@@ -1,0 +1,4 @@
+/home/valentine/labs/os/lab5/build/CMakeFiles/OS05_04.dir
+/home/valentine/labs/os/lab5/build/CMakeFiles/OS05_05.dir
+/home/valentine/labs/os/lab5/build/CMakeFiles/edit_cache.dir
+/home/valentine/labs/os/lab5/build/CMakeFiles/rebuild_cache.dir

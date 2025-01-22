@@ -1,0 +1,1 @@
+/usr/bin/clang CMakeFiles/CountWords.dir/CountWords.c.o -o CountWords 

@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Study/university/5semester/SP/lab5/CMakeLists.txt
+D:\Study\university\5semester\SP\lab5\Lab-05c.c(19,64): warning : format specifies type 'size_t' (aka 'unsigned long long') but the argument has type 'DWORD' (aka 'unsigned long') [-Wformat]
+  Lab-05c.vcxproj -> D:\Study\university\5semester\SP\lab5\build\Debug\Lab-05c.exe

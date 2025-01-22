@@ -1,0 +1,4 @@
+﻿D:\Study\university\5semester\SP\lab9\ServiceCtl.c(119,13): warning : incompatible pointer types passing 'const char **' to parameter of type 'LPCWSTR *' (aka 'const unsigned short **') [-Wincompatible-pointer-types]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsvc.h(1648,42): message : passing argument to parameter 'lpServiceArgVectors' here
+D:\Study\university\5semester\SP\lab9\ServiceCtl.c(531,57): warning : format specifies type 'int' but the argument has type 'DWORD' (aka 'unsigned long') [-Wformat]
+  ServiceCtl.vcxproj -> D:\Study\university\5semester\SP\lab9\build\Debug\ServiceCtl.exe

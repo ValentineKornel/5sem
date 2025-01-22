@@ -1,0 +1,4 @@
+D:/Study/university/5semester/SP/lab8/dll-cmake - Copy/build/CMakeFiles/ALL_BUILD.dir
+D:/Study/university/5semester/SP/lab8/dll-cmake - Copy/build/CMakeFiles/ZERO_CHECK.dir
+D:/Study/university/5semester/SP/lab8/dll-cmake - Copy/build/MainProject/src/CMakeFiles/Inj.dir
+D:/Study/university/5semester/SP/lab8/dll-cmake - Copy/build/LibProject/src/CMakeFiles/MyLib.dir

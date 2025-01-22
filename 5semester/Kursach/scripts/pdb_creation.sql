@@ -6,19 +6,14 @@ CREATE PLUGGABLE DATABASE mastergram_pdb
 ALTER SESSION SET CONTAINER = "CDB$ROOT";
     
 ALTER PLUGGABLE DATABASE mastergram_pdb OPEN;
-
 ALTER SESSION SET CONTAINER = "mastergram_pdb";
-GRANT EXECUTE ON UTL_FILE TO mastergram_app;
 select * from dba_users;
+
 --mastergram_pdb_admin
 CREATE TABLESPACE mastergram_tablespace 
 DATAFILE 'mastergram_tablespace.dbf' SIZE 200M;
-
-CREATE USER mastergram_app IDENTIFIED BY 12345
-DEFAULT TABLESPACE mastergram_tablespace QUOTA UNLIMITED ON mastergram_tablespace
-ACCOUNT UNLOCK;
-
-GRANT DBA to mastergram_app;
+ALTER TABLESPACE mastergram_tablespace
+ADD DATAFILE 'mastergram_tablespace2.dbf' SIZE 200M AUTOEXTEND ON NEXT 50M;
 
 ----ADMIN
 CREATE PROFILE ADMIN_PROFILE LIMIT
@@ -37,6 +32,7 @@ ACCOUNT UNLOCK;
 
 GRANT DBA to ADMIN;
 
+
 CREATE PROFILE USERS_PROFILE LIMIT
     PASSWORD_LIFE_TIME 180
     SESSIONS_PER_USER 20
@@ -51,6 +47,37 @@ DEFAULT TABLESPACE mastergram_tablespace
 ACCOUNT UNLOCK;
 
 GRANT CREATE SESSION TO MASTER;
+GRANT EXECUTE ON find_notifications_by_receiver TO MASTER;
+GRANT EXECUTE ON add_notification_to_user TO MASTER;
+GRANT EXECUTE ON mark_notifications_as_read TO MASTER;
+GRANT EXECUTE ON count_unread_notifications TO MASTER;
+GRANT EXECUTE ON find_post_by_id TO MASTER;
+GRANT EXECUTE ON delete_post TO MASTER;
+GRANT EXECUTE ON add_post TO MASTER;
+GRANT EXECUTE ON add_post TO MASTER;
+GRANT EXECUTE ON find_setting_by_id TO MASTER;
+GRANT EXECUTE ON change_setting TO MASTER;
+GRANT EXECUTE ON find_user_by_id TO MASTER;
+GRANT EXECUTE ON find_user_by_username TO MASTER;
+GRANT EXECUTE ON exists_user_by_username TO MASTER;
+GRANT EXECUTE ON search_master TO MASTER;
+GRANT EXECUTE ON update_user_master TO MASTER;
+GRANT EXECUTE ON follow_master TO MASTER;
+GRANT EXECUTE ON unfollow_master TO MASTER;
+GRANT EXECUTE ON is_client_following_master TO MASTER;
+GRANT EXECUTE ON find_master_info_by_id TO MASTER;
+GRANT EXECUTE ON find_booking_by_id TO MASTER;
+GRANT EXECUTE ON find_bookings_in_range TO MASTER;
+GRANT EXECUTE ON add_booking TO MASTER;
+GRANT EXECUTE ON update_booking TO MASTER;
+GRANT EXECUTE ON find_free_bookings_in_range TO MASTER;
+GRANT EXECUTE ON find_bookings_by_date TO MASTER;
+GRANT EXECUTE ON find_free_bookings_by_date TO MASTER;
+GRANT EXECUTE ON find_bookings_by_client TO MASTER;
+GRANT EXECUTE ON find_booked_bookings_by_master TO MASTER;
+GRANT EXECUTE ON find_history_bookings_by_client TO MASTER;
+GRANT EXECUTE ON find_history_bookings_by_master TO MASTER;
+GRANT EXECUTE ON delete_booking TO MASTER;
 
 
 CREATE USER CLIENT IDENTIFIED BY 12345 PROFILE USERS_PROFILE
@@ -58,3 +85,31 @@ DEFAULT TABLESPACE mastergram_tablespace
 ACCOUNT UNLOCK;
 
 GRANT CREATE SESSION TO CLIENT;
+GRANT EXECUTE ON find_notifications_by_receiver TO CLIENT;
+GRANT EXECUTE ON add_notification_to_user TO CLIENT;
+GRANT EXECUTE ON mark_notifications_as_read TO CLIENT;
+GRANT EXECUTE ON count_unread_notifications TO CLIENT;
+GRANT EXECUTE ON find_post_by_id TO CLIENT;
+GRANT EXECUTE ON add_request TO CLIENT;
+GRANT EXECUTE ON exists_request_by_user TO CLIENT;
+GRANT EXECUTE ON find_setting_by_id TO CLIENT;
+GRANT EXECUTE ON change_setting TO CLIENT;
+GRANT EXECUTE ON find_user_by_id TO CLIENT;
+GRANT EXECUTE ON find_user_by_username TO CLIENT;
+GRANT EXECUTE ON exists_user_by_username TO CLIENT;
+GRANT EXECUTE ON search_master TO CLIENT;
+GRANT EXECUTE ON add_user TO CLIENT;
+GRANT EXECUTE ON update_user_client TO CLIENT;
+GRANT EXECUTE ON follow_master TO CLIENT;
+GRANT EXECUTE ON unfollow_master TO CLIENT;
+GRANT EXECUTE ON is_client_following_master TO CLIENT;
+GRANT EXECUTE ON find_booking_by_id TO CLIENT;
+GRANT EXECUTE ON find_free_bookings_in_range TO CLIENT;
+GRANT EXECUTE ON find_free_bookings_by_date TO CLIENT;
+GRANT EXECUTE ON find_bookings_by_client TO MASTER;
+GRANT EXECUTE ON find_history_bookings_by_client TO MASTER;
+
+
+
+
+

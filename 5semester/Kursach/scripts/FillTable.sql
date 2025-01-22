@@ -32,6 +32,7 @@ EXCEPTION
         dbms_output.put_line('error filling booking table for client ' || sqlerrm);
 END;
 
+
 CREATE OR REPLACE PROCEDURE fill_booking_table IS
 BEGIN
     fill_booking_table_for_one_client(7, 1);

@@ -1,0 +1,6 @@
+/home/valentine/labs/sp/lab3/build/CMakeFiles/Lab-03a-server.dir
+/home/valentine/labs/sp/lab3/build/CMakeFiles/example.dir
+/home/valentine/labs/sp/lab3/build/CMakeFiles/Lab-03b-server.dir
+/home/valentine/labs/sp/lab3/build/CMakeFiles/Lab-03b-client.dir
+/home/valentine/labs/sp/lab3/build/CMakeFiles/edit_cache.dir
+/home/valentine/labs/sp/lab3/build/CMakeFiles/rebuild_cache.dir

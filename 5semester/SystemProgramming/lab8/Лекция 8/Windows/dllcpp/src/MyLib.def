@@ -1,0 +1,4 @@
+LIBRARY MyLib
+EXPORTS
+    Add @1
+    g_nResult @2 DATA

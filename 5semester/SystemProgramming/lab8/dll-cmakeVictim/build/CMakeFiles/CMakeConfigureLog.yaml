@@ -1,0 +1,432 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.2+c078802d4 for .NET Framework
+      Build started 11/28/2024 7:46:46 PM.
+      
+      Project "D:\\Study\\university\\5semester\\SP\\lab8\\dll-cmake\\build\\CMakeFiles\\3.29.5-msvc4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        D:\\Progtam files1\\VisualStudio\\main\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /EHsc /MDd /GS /fp:precise /Fo"Debug\\\\" /Gd /TC --target=amd64-pc-windows-msvc  CMakeCCompilerId.c
+      Link:
+        D:\\Progtam files1\\VisualStudio\\main\\VC\\Tools\\Llvm\\x64\\bin\\lld-link.exe /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib"  Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Study\\university\\5semester\\SP\\lab8\\dll-cmake\\build\\CMakeFiles\\3.29.5-msvc4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (clang-cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\Progtam files1\\VisualStudio\\main\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "D:\\Study\\university\\5semester\\SP\\lab8\\dll-cmake\\build\\CMakeFiles\\3.29.5-msvc4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.60
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is Clang, found in:
+        D:/Study/university/5semester/SP/lab8/dll-cmake/build/CMakeFiles/3.29.5-msvc4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.2+c078802d4 for .NET Framework
+      Build started 11/28/2024 7:46:48 PM.
+      
+      Project "D:\\Study\\university\\5semester\\SP\\lab8\\dll-cmake\\build\\CMakeFiles\\3.29.5-msvc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        D:\\Progtam files1\\VisualStudio\\main\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /EHsc /MDd /GS /fp:precise /Fo"Debug\\\\" /Gd /TP --target=amd64-pc-windows-msvc  CMakeCXXCompilerId.cpp
+      Link:
+        D:\\Progtam files1\\VisualStudio\\main\\VC\\Tools\\Llvm\\x64\\bin\\lld-link.exe /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib"  Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Study\\university\\5semester\\SP\\lab8\\dll-cmake\\build\\CMakeFiles\\3.29.5-msvc4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (clang-cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\Progtam files1\\VisualStudio\\main\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "D:\\Study\\university\\5semester\\SP\\lab8\\dll-cmake\\build\\CMakeFiles\\3.29.5-msvc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.59
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is Clang, found in:
+        D:/Study/university/5semester/SP/lab8/dll-cmake/build/CMakeFiles/3.29.5-msvc4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Study/university/5semester/SP/lab8/dll-cmake/build/CMakeFiles/CMakeScratch/TryCompile-kq3jno"
+      binary: "D:/Study/university/5semester/SP/lab8/dll-cmake/build/CMakeFiles/CMakeScratch/TryCompile-kq3jno"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "D:/Progtam files1/VisualStudio/main/VC/Tools/Llvm/x64/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Study/university/5semester/SP/lab8/dll-cmake/build/CMakeFiles/CMakeScratch/TryCompile-kq3jno'
+        
+        Run Build Command(s): "D:/Progtam files1/VisualStudio/main/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_feda8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 11/28/2024 7:46:49 PM.
+        
+        Project "D:\\Study\\university\\5semester\\SP\\lab8\\dll-cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq3jno\\cmTC_feda8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_feda8.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Study\\university\\5semester\\SP\\lab8\\dll-cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq3jno\\Debug\\".
+          Creating directory "cmTC_feda8.dir\\Debug\\cmTC_feda8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_feda8.dir\\Debug\\cmTC_feda8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_feda8.dir\\Debug\\cmTC_feda8.tlog\\unsuccessfulbuild".
+        ClCompile:
+          D:\\Progtam files1\\VisualStudio\\main\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Fo"cmTC_feda8.dir\\Debug\\\\" /Gd /TC --target=amd64-pc-windows-msvc  "D:\\Progtam files1\\VisualStudio\\main\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          D:\\Progtam files1\\VisualStudio\\main\\VC\\Tools\\Llvm\\x64\\bin\\lld-link.exe /OUT:"D:\\Study\\university\\5semester\\SP\\lab8\\dll-cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq3jno\\Debug\\cmTC_feda8.exe" /INCREMENTAL /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"D:/Study/university/5semester/SP/lab8/dll-cmake/build/CMakeFiles/CMakeScratch/TryCompile-kq3jno/Debug/cmTC_feda8.pdb" /SUBSYSTEM:CONSOLE /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Study/university/5semester/SP/lab8/dll-cmake/build/CMakeFiles/CMakeScratch/TryCompile-kq3jno/Debug/cmTC_feda8.lib"   /machine:x64 cmTC_feda8.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_feda8.vcxproj -> D:\\Study\\university\\5semester\\SP\\lab8\\dll-cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq3jno\\Debug\\cmTC_feda8.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_feda8.dir\\Debug\\cmTC_feda8.tlog\\unsuccessfulbuild".
+          Touching "cmTC_feda8.dir\\Debug\\cmTC_feda8.tlog\\cmTC_feda8.lastbuildstate".
+        Done Building Project "D:\\Study\\university\\5semester\\SP\\lab8\\dll-cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq3jno\\cmTC_feda8.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.60
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': D:/Progtam files1/VisualStudio/main/VC/Tools/Llvm/x64/bin/lld-link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "D:/Progtam files1/VisualStudio/main/VC/Tools/Llvm/x64/bin/lld-link.exe" "-v"
+      lld-link: warning: ignoring unknown argument '-v'
+      lld-link: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "D:/Progtam files1/VisualStudio/main/VC/Tools/Llvm/x64/bin/lld-link.exe" "-V"
+      lld-link: warning: ignoring unknown argument '-V'
+      lld-link: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "D:/Progtam files1/VisualStudio/main/VC/Tools/Llvm/x64/bin/lld-link.exe" "--version"
+      LLD 17.0.3
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Study/university/5semester/SP/lab8/dll-cmake/build/CMakeFiles/CMakeScratch/TryCompile-eszrjg"
+      binary: "D:/Study/university/5semester/SP/lab8/dll-cmake/build/CMakeFiles/CMakeScratch/TryCompile-eszrjg"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "D:/Progtam files1/VisualStudio/main/VC/Tools/Llvm/x64/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Study/university/5semester/SP/lab8/dll-cmake/build/CMakeFiles/CMakeScratch/TryCompile-eszrjg'
+        
+        Run Build Command(s): "D:/Progtam files1/VisualStudio/main/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_150f1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 11/28/2024 7:46:50 PM.
+        
+        Project "D:\\Study\\university\\5semester\\SP\\lab8\\dll-cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eszrjg\\cmTC_150f1.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_150f1.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Study\\university\\5semester\\SP\\lab8\\dll-cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eszrjg\\Debug\\".
+          Creating directory "cmTC_150f1.dir\\Debug\\cmTC_150f1.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_150f1.dir\\Debug\\cmTC_150f1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_150f1.dir\\Debug\\cmTC_150f1.tlog\\unsuccessfulbuild".
+        ClCompile:
+          D:\\Progtam files1\\VisualStudio\\main\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /MDd /GS /fp:precise /Fo"cmTC_150f1.dir\\Debug\\\\" /Gd /TP --target=amd64-pc-windows-msvc  "D:\\Progtam files1\\VisualStudio\\main\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          D:\\Progtam files1\\VisualStudio\\main\\VC\\Tools\\Llvm\\x64\\bin\\lld-link.exe /OUT:"D:\\Study\\university\\5semester\\SP\\lab8\\dll-cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eszrjg\\Debug\\cmTC_150f1.exe" /INCREMENTAL /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"D:/Study/university/5semester/SP/lab8/dll-cmake/build/CMakeFiles/CMakeScratch/TryCompile-eszrjg/Debug/cmTC_150f1.pdb" /SUBSYSTEM:CONSOLE /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Study/university/5semester/SP/lab8/dll-cmake/build/CMakeFiles/CMakeScratch/TryCompile-eszrjg/Debug/cmTC_150f1.lib"   /machine:x64 cmTC_150f1.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_150f1.vcxproj -> D:\\Study\\university\\5semester\\SP\\lab8\\dll-cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eszrjg\\Debug\\cmTC_150f1.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_150f1.dir\\Debug\\cmTC_150f1.tlog\\unsuccessfulbuild".
+          Touching "cmTC_150f1.dir\\Debug\\cmTC_150f1.tlog\\cmTC_150f1.lastbuildstate".
+        Done Building Project "D:\\Study\\university\\5semester\\SP\\lab8\\dll-cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eszrjg\\cmTC_150f1.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.61
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': D:/Progtam files1/VisualStudio/main/VC/Tools/Llvm/x64/bin/lld-link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/Progtam files1/VisualStudio/main/VC/Tools/Llvm/x64/bin/lld-link.exe" "-v"
+      lld-link: warning: ignoring unknown argument '-v'
+      lld-link: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/Progtam files1/VisualStudio/main/VC/Tools/Llvm/x64/bin/lld-link.exe" "-V"
+      lld-link: warning: ignoring unknown argument '-V'
+      lld-link: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/Progtam files1/VisualStudio/main/VC/Tools/Llvm/x64/bin/lld-link.exe" "--version"
+      LLD 17.0.3
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:84 (_record_compiler_features)"
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake:121 (_record_compiler_features_cxx)"
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:83 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "D:/Study/university/5semester/SP/lab8/dll-cmake/build/CMakeFiles/CMakeScratch/TryCompile-a8hjwj"
+      binary: "D:/Study/university/5semester/SP/lab8/dll-cmake/build/CMakeFiles/CMakeScratch/TryCompile-a8hjwj"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "D:/Progtam files1/VisualStudio/main/VC/Tools/Llvm/x64/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Study/university/5semester/SP/lab8/dll-cmake/build/CMakeFiles/CMakeScratch/TryCompile-a8hjwj'
+        
+        Run Build Command(s): "D:/Progtam files1/VisualStudio/main/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c7414.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 11/28/2024 7:46:51 PM.
+        
+        Project "D:\\Study\\university\\5semester\\SP\\lab8\\dll-cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a8hjwj\\cmTC_c7414.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c7414.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Study\\university\\5semester\\SP\\lab8\\dll-cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a8hjwj\\Debug\\".
+          Creating directory "cmTC_c7414.dir\\Debug\\cmTC_c7414.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c7414.dir\\Debug\\cmTC_c7414.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c7414.dir\\Debug\\cmTC_c7414.tlog\\unsuccessfulbuild".
+        ClCompile:
+          D:\\Progtam files1\\VisualStudio\\main\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /MDd /GS /fp:precise /std:c++14 /Fo"cmTC_c7414.dir\\Debug\\\\" /Gd /TP --target=amd64-pc-windows-msvc  "D:\\Study\\university\\5semester\\SP\\lab8\\dll-cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a8hjwj\\feature_tests.cxx"
+        Link:
+          D:\\Progtam files1\\VisualStudio\\main\\VC\\Tools\\Llvm\\x64\\bin\\lld-link.exe /OUT:"D:\\Study\\university\\5semester\\SP\\lab8\\dll-cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a8hjwj\\Debug\\cmTC_c7414.exe" /INCREMENTAL kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"D:/Study/university/5semester/SP/lab8/dll-cmake/build/CMakeFiles/CMakeScratch/TryCompile-a8hjwj/Debug/cmTC_c7414.pdb" /SUBSYSTEM:CONSOLE /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Study/university/5semester/SP/lab8/dll-cmake/build/CMakeFiles/CMakeScratch/TryCompile-a8hjwj/Debug/cmTC_c7414.lib"   /machine:x64 cmTC_c7414.dir\\Debug\\feature_tests.obj
+          cmTC_c7414.vcxproj -> D:\\Study\\university\\5semester\\SP\\lab8\\dll-cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a8hjwj\\Debug\\cmTC_c7414.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_c7414.dir\\Debug\\cmTC_c7414.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c7414.dir\\Debug\\cmTC_c7414.tlog\\cmTC_c7414.lastbuildstate".
+        Done Building Project "D:\\Study\\university\\5semester\\SP\\lab8\\dll-cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a8hjwj\\cmTC_c7414.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.57
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:84 (_record_compiler_features)"
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake:129 (_record_compiler_features_cxx)"
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:83 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "D:/Study/university/5semester/SP/lab8/dll-cmake/build/CMakeFiles/CMakeScratch/TryCompile-n3tzx3"
+      binary: "D:/Study/university/5semester/SP/lab8/dll-cmake/build/CMakeFiles/CMakeScratch/TryCompile-n3tzx3"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "D:/Progtam files1/VisualStudio/main/VC/Tools/Llvm/x64/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Study/university/5semester/SP/lab8/dll-cmake/build/CMakeFiles/CMakeScratch/TryCompile-n3tzx3'
+        
+        Run Build Command(s): "D:/Progtam files1/VisualStudio/main/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dc052.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 11/28/2024 7:46:52 PM.
+        
+        Project "D:\\Study\\university\\5semester\\SP\\lab8\\dll-cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n3tzx3\\cmTC_dc052.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_dc052.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Study\\university\\5semester\\SP\\lab8\\dll-cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n3tzx3\\Debug\\".
+          Creating directory "cmTC_dc052.dir\\Debug\\cmTC_dc052.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_dc052.dir\\Debug\\cmTC_dc052.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_dc052.dir\\Debug\\cmTC_dc052.tlog\\unsuccessfulbuild".
+        ClCompile:
+          D:\\Progtam files1\\VisualStudio\\main\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe /c /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /MDd /GS /fp:precise /Fo"cmTC_dc052.dir\\Debug\\\\" /Gd /TP --target=amd64-pc-windows-msvc  "D:\\Study\\university\\5semester\\SP\\lab8\\dll-cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n3tzx3\\feature_tests.cxx"
+        Link:
+          D:\\Progtam files1\\VisualStudio\\main\\VC\\Tools\\Llvm\\x64\\bin\\lld-link.exe /OUT:"D:\\Study\\university\\5semester\\SP\\lab8\\dll-cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n3tzx3\\Debug\\cmTC_dc052.exe" /INCREMENTAL kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"D:/Study/university/5semester/SP/lab8/dll-cmake/build/CMakeFiles/CMakeScratch/TryCompile-n3tzx3/Debug/cmTC_dc052.pdb" /SUBSYSTEM:CONSOLE /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Study/university/5semester/SP/lab8/dll-cmake/build/CMakeFiles/CMakeScratch/TryCompile-n3tzx3/Debug/cmTC_dc052.lib"   /machine:x64 cmTC_dc052.dir\\Debug\\feature_tests.obj
+          cmTC_dc052.vcxproj -> D:\\Study\\university\\5semester\\SP\\lab8\\dll-cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n3tzx3\\Debug\\cmTC_dc052.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_dc052.dir\\Debug\\cmTC_dc052.tlog\\unsuccessfulbuild".
+          Touching "cmTC_dc052.dir\\Debug\\cmTC_dc052.tlog\\cmTC_dc052.lastbuildstate".
+        Done Building Project "D:\\Study\\university\\5semester\\SP\\lab8\\dll-cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n3tzx3\\cmTC_dc052.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.59
+        
+      exitCode: 0
+...

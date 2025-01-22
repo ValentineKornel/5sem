@@ -1,0 +1,5 @@
+﻿  OS09_03.cpp
+D:\Study\university\5semester\OS\lab9\Lab09\Lab09\OS09_03\OS09_03.cpp(63,43): warning C4244: 'argument': conversion from 'LONGLONG' to 'DWORD', possible loss of data
+D:\Study\university\5semester\OS\lab9\Lab09\Lab09\OS09_03\OS09_03.cpp(108,58): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\Study\university\5semester\OS\lab9\Lab09\Lab09\OS09_03\OS09_03.cpp(167,21): warning C4101: 'em': unreferenced local variable
+  OS09_03.vcxproj -> D:\Study\university\5semester\OS\lab9\Lab09\Lab09\x64\Debug\OS09_03.exe

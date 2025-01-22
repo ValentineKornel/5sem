@@ -1,0 +1,10 @@
+^D:\STUDY\UNIVERSITY\5SEMESTER\SP\LAB9\CMAKELISTS.TXT
+setlocal
+"D:\Progtam files1\VisualStudio\main\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Study/university/5semester/SP/lab9 -BD:/Study/university/5semester/SP/lab9/build --check-stamp-file D:/Study/university/5semester/SP/lab9/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

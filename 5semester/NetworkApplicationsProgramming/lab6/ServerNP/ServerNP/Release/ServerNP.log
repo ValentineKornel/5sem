@@ -1,0 +1,15 @@
+﻿  ServerNP.cpp
+D:\Study\university\5semester\PSP\lab6\ServerNP\ServerNP\ServerNP.cpp(13,9): warning C4005: 'INADDR_ANY': macro redefinition
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(600,9):
+      see previous definition of 'INADDR_ANY'
+  
+D:\Study\university\5semester\PSP\lab6\ServerNP\ServerNP\ServerNP.cpp(15,9): warning C4005: 'INADDR_BROADCAST': macro redefinition
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(602,9):
+      see previous definition of 'INADDR_BROADCAST'
+  
+  Generating code
+  0 of 112 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  ServerNP.vcxproj -> D:\Study\university\5semester\PSP\lab6\ServerNP\Release\ServerNP.exe

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Study\university\5semester\SP\lab8\dll-cmake\LibProject\src\MyLib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\university\5semester\SP\lab8\dll-cmake\LibProject\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{64AAD918-B452-39D7-AD57-DED6EB2E7F55}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

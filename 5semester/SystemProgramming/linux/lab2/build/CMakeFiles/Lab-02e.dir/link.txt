@@ -1,0 +1,1 @@
+/usr/bin/cc "CMakeFiles/Lab-02e.dir/Lab-02e.c.o" -o Lab-02e 

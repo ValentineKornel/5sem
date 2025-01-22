@@ -330,6 +330,7 @@ BEGIN
           AND u.id != p_user_id
           AND (LOWER(u.first_name) LIKE '%' || LOWER(p_search) || '%'
                OR LOWER(u.second_name) LIKE '%' || LOWER(p_search) || '%'
+               OR LOWER(u.username) LIKE '%' || LOWER(p_search) || '%'
                OR LOWER(u.first_name) || ' ' || LOWER(u.second_name) LIKE '%' || LOWER(p_search) || '%'
                OR LOWER(u.second_name) || ' ' || LOWER(u.first_name) LIKE '%' || LOWER(p_search) || '%'
                OR LOWER(mi.description) LIKE '%' || LOWER(p_search) || '%')
@@ -352,6 +353,7 @@ BEGIN
     where (u.role = 'ROLE_CLIENT' OR u.role = 'ROLE_MASTER')
           AND (LOWER(u.first_name) LIKE '%' || LOWER(p_search) || '%'
                OR LOWER(u.second_name) LIKE '%' || LOWER(p_search) || '%'
+               OR LOWER(u.username) LIKE '%' || LOWER(p_search) || '%'
                OR LOWER(u.first_name) || ' ' || LOWER(u.second_name) LIKE '%' || LOWER(p_search) || '%'
                OR LOWER(u.second_name) || ' ' || LOWER(u.first_name) LIKE '%' || LOWER(p_search) || '%')
     )LOOP

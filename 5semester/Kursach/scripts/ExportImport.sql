@@ -92,5 +92,9 @@ EXCEPTION
 END;
 
 
+select * from Booking;
+select count(*) from Booking;
+truncate table Booking;
+
 
 

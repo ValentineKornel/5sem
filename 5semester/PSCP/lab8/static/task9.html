@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Parameters</title>
+</head>
+<body>
+    <h1>Submit Form</h1>
+    <form action="/formparameter" method="POST">
+        <label for="textInput">Text Input:</label>
+        <input type="text" id="textInput" name="textInput"><br><br>
+
+        <label for="numberInput">Number Input:</label>
+        <input type="number" id="numberInput" name="numberInput"><br><br>
+
+        <label for="dateInput">Date Input:</label>
+        <input type="date" id="dateInput" name="dateInput"><br><br>
+
+        <label for="checkboxInput">Checkbox:</label>
+        <input type="checkbox" id="checkboxInput" name="checkboxInput" value="checked"><br><br>
+
+        <label>Radiobuttons:</label>
+        <input type="radio" name="radioInput" value="Option1" id="radio1"><label for="radio1">Option 1</label>
+        <input type="radio" name="radioInput" value="Option2" id="radio2"><label for="radio2">Option 2</label><br><br>
+
+        <label for="textarea">Textarea:</label><br>
+        <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" name="submitButton" value="Submit1">
+        <input type="submit" name="submitButton" value="Submit2">
+    </form>
+</body>
+</html>

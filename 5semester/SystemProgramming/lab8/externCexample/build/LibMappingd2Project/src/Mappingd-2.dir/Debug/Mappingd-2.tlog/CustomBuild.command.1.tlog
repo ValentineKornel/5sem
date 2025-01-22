@@ -1,0 +1,10 @@
+^D:\STUDY\UNIVERSITY\5SEMESTER\SP\LAB8\DLL-CMAKE - COPY\LIBMAPPINGD2PROJECT\SRC\CMAKELISTS.TXT
+setlocal
+"D:\Progtam files1\VisualStudio\main\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Study/university/5semester/SP/lab8/dll-cmake - Copy" "-BD:/Study/university/5semester/SP/lab8/dll-cmake - Copy/build" --check-stamp-file "D:/Study/university/5semester/SP/lab8/dll-cmake - Copy/build/LibMappingd2Project/src/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

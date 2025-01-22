@@ -1,0 +1,1 @@
+/usr/bin/clang "CMakeFiles/Lab-08c.dir/Lab-08c.c.o" -o Lab-08c   -L/home/valentine/labs/sp/lab8/static-cmake/LibProject/src  -Wl,-rpath,/home/valentine/labs/sp/lab8/static-cmake/LibProject/src ../../LibProject/src/libLibProject.a 

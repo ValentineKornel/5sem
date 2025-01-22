@@ -1,0 +1,26 @@
+# CMake generation dependency list for this directory.
+D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeCInformation.cmake
+D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeCXXInformation.cmake
+D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake
+D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeGenericSystem.cmake
+D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake
+D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake
+D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeRCInformation.cmake
+D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake
+D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake
+D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Compiler/Clang-C.cmake
+D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Compiler/Clang-CXX.cmake
+D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Compiler/Clang.cmake
+D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Platform/Windows-Clang-C.cmake
+D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Platform/Windows-Clang-CXX.cmake
+D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Platform/Windows-Clang.cmake
+D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake
+D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Platform/Windows-MSVC.cmake
+D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Platform/Windows.cmake
+D:/Progtam files1/VisualStudio/main/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake
+D:/Study/university/5semester/SP/lab8/dll-cmake/CMakeLists.txt
+D:/Study/university/5semester/SP/lab8/dll-cmake/build/CMakeFiles/3.29.5-msvc4/CMakeCCompiler.cmake
+D:/Study/university/5semester/SP/lab8/dll-cmake/build/CMakeFiles/3.29.5-msvc4/CMakeCXXCompiler.cmake
+D:/Study/university/5semester/SP/lab8/dll-cmake/build/CMakeFiles/3.29.5-msvc4/CMakeRCCompiler.cmake
+D:/Study/university/5semester/SP/lab8/dll-cmake/build/CMakeFiles/3.29.5-msvc4/CMakeSystem.cmake

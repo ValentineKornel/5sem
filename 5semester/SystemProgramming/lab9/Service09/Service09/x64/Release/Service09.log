@@ -1,0 +1,64 @@
+﻿  Service09.c
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(32,25): warning C4133: 'initializing': incompatible types - from 'char *' to 'LPWSTR'
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(58,9): warning C4133: 'function': incompatible types - from 'char *' to 'LPCWSTR'
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(94,24): warning C4133: '=': incompatible types - from 'LPTSTR' to 'const char *'
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(95,21): warning C4133: '=': incompatible types - from 'LPTSTR' to 'const char *'
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(126,88): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(130,39): warning C4267: 'function': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(140,88): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(144,39): warning C4267: 'function': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(148,21): warning C4133: '=': incompatible types - from 'LPTSTR' to 'const char *'
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(161,88): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(165,39): warning C4267: 'function': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(182,59): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(186,39): warning C4267: 'function': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(206,49): warning C4133: 'function': incompatible types - from 'LPTSTR' to 'const char *'
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(206,71): warning C4133: 'function': incompatible types - from 'LPTSTR' to 'const char *'
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(206,76): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(209,21): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'LPTSTR'
+      D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(209,21):
+      consider using '%ls' in the format string
+      D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(209,21):
+      consider using '%lls' in the format string
+      D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(209,21):
+      consider using '%Ls' in the format string
+      D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(209,21):
+      consider using '%ws' in the format string
+  
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(209,21): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 3 has type 'LPTSTR'
+      D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(209,21):
+      consider using '%ls' in the format string
+      D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(209,21):
+      consider using '%lls' in the format string
+      D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(209,21):
+      consider using '%Ls' in the format string
+      D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(209,21):
+      consider using '%ws' in the format string
+  
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(210,35): warning C4267: 'function': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(225,59): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(229,39): warning C4267: 'function': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(240,9): warning C4098: 'ServiceMain': 'void' function returning a value
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(271,17): warning C4098: 'ServiceMain': 'void' function returning a value
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(301,58): warning C4477: 'snprintf' : format string '%.*S' requires an argument of type 'int', but variadic argument 2 has type 'size_t'
+      D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(301,58):
+      this argument is used as a precision
+  
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(306,67): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(310,51): warning C4267: 'function': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(326,67): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(330,47): warning C4267: 'function': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(342,63): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(346,43): warning C4267: 'function': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(366,88): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(370,39): warning C4267: 'function': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(386,88): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(390,39): warning C4267: 'function': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(399,88): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\Study\university\5semester\SP\lab9\Service09\Service09\Service09.c(403,39): warning C4267: 'function': conversion from 'size_t' to 'DWORD', possible loss of data
+  Generating code
+  1 of 12 functions ( 8.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Service09.vcxproj -> D:\Study\university\5semester\SP\lab9\Service09\x64\Release\Service09.exe

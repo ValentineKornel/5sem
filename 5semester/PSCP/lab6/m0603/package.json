@@ -1,0 +1,14 @@
+{
+  "name": "m0603bykorneliuk",
+  "version": "1.0.0",
+  "description": "module the allows you to send email",
+  "main": "m0603.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "email"
+  ],
+  "author": "Korneliuk V.",
+  "license": "ISC"
+}

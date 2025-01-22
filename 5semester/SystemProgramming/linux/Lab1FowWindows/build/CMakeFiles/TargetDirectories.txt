@@ -1,0 +1,3 @@
+/home/valentine/labs/sp/Lab1FowWindows/build/CMakeFiles/CountWords.dir
+/home/valentine/labs/sp/Lab1FowWindows/build/CMakeFiles/edit_cache.dir
+/home/valentine/labs/sp/Lab1FowWindows/build/CMakeFiles/rebuild_cache.dir
